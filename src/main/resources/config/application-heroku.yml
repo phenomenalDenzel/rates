@@ -1,0 +1,48 @@
+# ===================================================================
+# Spring Boot configuration for the "heroku" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+  instance:
+    hostname: ancient-oasis-42357.herokuapp.com
+    non-secure-port: 80
+    prefer-ip-address: false
+
+jhipster:
+  mail:
+    base-url: https://ancient-oasis-42357.herokuapp.com
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+    hikari:
+      maximumPoolSize: 8
+  profiles:
+    include:
+      - swagger
+  data:
+    jest:
+      uri: ${BONSAI_URL}${SEARCHBOX_URL}
+  mail:
+    from: info@qualitydrivensolutions.co.uk
+    host: ${EMAIL_HOST}
+    port: 25
+    username: ${EMAIL_USERNAME}
+    password: ${EMAIL_PASSWORD}
+  liquibase:
+    contexts: prod, faker
+
+application:
+  otpValidityMinutes: ${OTP_VALIDITY_MINUTES}
+  otpLength: ${OTP_LENGTH}

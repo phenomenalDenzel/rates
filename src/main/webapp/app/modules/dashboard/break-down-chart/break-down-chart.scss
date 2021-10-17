@@ -1,0 +1,19 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+
+.account-summary {
+  @include text(bold, 19px, 22px);
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.check-account {
+  @include text(500, 14px, 23px, $aztec, 0.5);
+  margin-bottom: 14px;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+}

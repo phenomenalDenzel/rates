@@ -1,0 +1,68 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.fund-details {
+  padding-top: 16px;
+  background-color: $white;
+
+  .summary-title {
+    @include text(bold, 15px, 43px);
+  }
+
+  .summary {
+    @include text(400, 13px, 20px, $aztec, 0.6);
+    padding-bottom: 25px;
+  }
+
+  .name {
+    @include text(bold, 18px, 53px, $white);
+  }
+
+  .value {
+    @include text(500, 16px, 18px, $white);
+  }
+
+  .prospectus {
+    @include text(600, 13px, 53px, $white);
+  }
+
+  .fund-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .view-details {
+    @include text(400, 10px, 30px);
+    height: 30px;
+    cursor: pointer;
+    min-width: 200px;
+  }
+
+  .investment-details {
+    margin: 16px 0 0 0;
+    padding: 15px 15px 20px 15px;
+    border-radius: 5px;
+    background-color: $puerto-rico;
+  }
+
+  .view-details img {
+    height: 8px;
+    width: 15px;
+  }
+
+  .describe {
+    @include text(400, 12px, 17px, $white);
+    padding-bottom: 7px;
+  }
+
+  @media (max-width: $size767) {
+    .fund-title {
+      margin-bottom: -10px;
+    }
+    .describe {
+      @include text(400, 11px, 10px, $white);
+      margin-top: 15px;
+    }
+  }
+}

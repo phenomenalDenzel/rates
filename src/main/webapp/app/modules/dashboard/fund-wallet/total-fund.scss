@@ -1,0 +1,35 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.topup-fund {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $puerto-rico;
+  border-radius: 30px;
+  margin-top: 15px;
+  max-width: 160px;
+  max-height: 40px;
+  padding: 4px 8px 3px 2px;
+  .topup-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px 4px 8px;
+
+    .wallet-balance {
+      @include text(300, 12px, 12px, $white);
+    }
+    .fund-balance {
+      @include text(500, 14px, '', $white);
+    }
+  }
+  .add-fund {
+    background-color: $white;
+    border-radius: 30px;
+    padding: 3px 8px 3px 8px;
+
+    @include text(700, 13px, '', $puerto-rico);
+  }
+}

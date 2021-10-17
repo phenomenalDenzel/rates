@@ -1,0 +1,79 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.portifolio-list-card {
+  padding: 0 0px 0 15px;
+  .border-bottom {
+    border-bottom: 1px solid $off-white;
+  }
+  .list-image {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .list-title {
+    @include text(400, 15px, 15px);
+    margin-bottom: 4px;
+  }
+
+  .list-description {
+    @include text(400, 11px, 12px, $aztec, 0.5);
+  }
+
+  .fund-size {
+    @include text(400, 10px, 15px, $aztec, 0.5);
+  }
+
+  .fund-amount {
+    @include text(700, 12px, 16px);
+  }
+
+  .inner {
+    padding: 15px 0px 13px 10px;
+    cursor: pointer;
+  }
+
+  .active-border {
+    border-left: 3px solid $puerto-rico;
+    border-bottom: none;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  .list-fund {
+    max-width: 72px;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: $size767) {
+  .portifolio-list-card {
+    margin-right: 0;
+    .list-title {
+      @include text(400, 10px, 15px);
+    }
+
+    .list-fund {
+      max-width: 102px;
+    }
+    .list-description {
+      @include text(400, 9px, 12px, $aztec, 0.5);
+    }
+
+    .fund-size {
+      @include text(400, 8px, 15px, $aztec, 0.5);
+    }
+
+    .fund-amount {
+      @include text(700, 10px, 16px);
+    }
+  }
+}
+
+@media (max-width: $size575) {
+  .list-fund {
+    padding-right: 30px;
+  }
+}

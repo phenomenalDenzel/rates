@@ -1,0 +1,12 @@
+{
+  "ratesApp": {
+    "RelationshipType": {
+      "null": "",
+      "FATHER": "FATHER",
+      "MOTHER": "MOTHER",
+      "SIBLING": "SIBLING",
+      "SPOUSE": "SPOUSE",
+      "CHILD": "CHILD"
+    }
+  }
+}

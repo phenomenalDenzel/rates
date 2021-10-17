@@ -1,0 +1,14 @@
+{
+  "header": {
+    "link": {
+      "dashboard": "Dashboard",
+      "explore": "Explore",
+      "learn": "Learn"
+    },
+    "signed.in.as": "Signed in as",
+    "language": "En",
+    "about": "About",
+    "login.register": "Log in or Register",
+    "login": "Log in"
+  }
+}

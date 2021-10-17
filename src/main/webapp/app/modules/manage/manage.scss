@@ -1,0 +1,101 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+
+.inflation {
+  width: 150px;
+  text-align: center;
+}
+
+.manage-content {
+  padding: $size55 140px $size55 10px;
+}
+
+.manage-img {
+  width: 110%;
+  height: 490px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.manage-text {
+  @include text(900, 32px, 36px);
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+
+.manage-desc {
+  @include text(normal, 11px, 180%);
+}
+
+.learn-more-btn {
+  @include text(bold, 14px, 11px, $puerto-rico);
+  width: 177px;
+  height: 35px;
+  border: 1px solid $puerto-rico;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.learn-more-div {
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+.risk-disclosure {
+  @include text(italic, 100, 10px, 16px);
+  text-align: center;
+  margin-left: 3px;
+}
+
+@media (max-width: $size790) {
+  .inflation {
+    width: 120px;
+    text-align: center;
+  }
+
+  .manage-img {
+    width: 100%;
+    height: 490px;
+    padding: 0;
+    margin-top: -40px;
+  }
+
+  .manage-text {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .learn-more-div {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .manage-content {
+    padding: 70px 30px 30px 10px;
+  }
+}
+
+@media (max-width: $size420) {
+  .manage-img {
+    width: 100%;
+    height: 490px;
+    padding: 0;
+    margin-top: -90px;
+  }
+
+  .manage-text {
+    margin-top: -60px;
+    margin-bottom: 15px;
+  }
+
+  .learn-more-div {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .manage-content {
+    text-align: center;
+    padding: 0 30px 00px 30px;
+  }
+}

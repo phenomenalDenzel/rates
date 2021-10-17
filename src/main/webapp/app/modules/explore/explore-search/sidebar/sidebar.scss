@@ -1,0 +1,86 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+/* ---------------------------------------------------
+      SIDEBAR STYLE
+  ----------------------------------------------------- */
+
+.sidebar {
+  background: $puerto-rico;
+  margin-left: -250px;
+  transition: all 0.5s;
+  position: fixed;
+  top: 70px;
+  z-index: 1000;
+  is-open {
+    margin-left: 0;
+    transition: 0.5s;
+  }
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    @include text(600, 24px, 61px, $white);
+    padding: 5px 20px;
+
+    text-align: left;
+  }
+  .side-menu {
+    height: calc(100vh - 130px);
+    overflow-y: scroll;
+  }
+  .terms {
+    color: $white;
+  }
+  .facet-menu {
+    width: 80%;
+    padding-top: 0;
+    padding-left: 40px;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    a.dropdown-toggle::after {
+      left: 90%;
+      position: absolute;
+      margin-top: 10px;
+    }
+  }
+  .times-icon {
+    font-size: 40px;
+    cursor: pointer;
+  }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: $size767) {
+  .content.is-open {
+    margin-left: 90%;
+  }
+  .sub-menu:hover,
+  .sub-menu {
+    a {
+      color: $white;
+    }
+  }
+  .sidebar.is-open {
+    width: 40%;
+    margin-left: 0;
+  }
+
+  .sidebar.is-open > .sidebar-header span {
+    display: unset;
+  }
+}
+
+@media only screen and (max-width: $size575) {
+  .sidebar.is-open {
+    width: 70%;
+    margin-left: 0;
+  }
+}

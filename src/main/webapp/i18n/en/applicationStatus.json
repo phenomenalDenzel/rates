@@ -1,0 +1,11 @@
+{
+  "ratesApp": {
+    "ApplicationStatus": {
+      "null": "",
+      "PROCESSING": "PROCESSING",
+      "COMPLETE": "COMPLETE",
+      "REDEEMED": "REDEEMED",
+      "CANCELLED": "CANCELLED"
+    }
+  }
+}

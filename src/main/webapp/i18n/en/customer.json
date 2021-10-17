@@ -1,0 +1,40 @@
+{
+  "ratesApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "createLabel": "Create a new Customer",
+        "createOrEditLabel": "Create or edit a Customer",
+        "search": "Search for Customer",
+        "notFound": "No Customers found"
+      },
+      "profile.updated": "Your profile update was successful",
+      "created": "A new Customer is created with identifier {{ param }}",
+      "updated": "A Customer is updated with identifier {{ param }}",
+      "deleted": "A Customer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "annualIncome": "Annual Income",
+      "employmentStatus": "Employment Status",
+      "qualificationLevel": "Qualification Level",
+      "mobile": "Mobile",
+      "bvn": "Bvn",
+      "dob": "Dob",
+      "countryOfBirth": "Country Of Birth",
+      "nationality": "Nationality",
+      "mothersMaidenName": "Mothers Maiden Name",
+      "verified": "Verified",
+      "user": "User",
+      "accountVerifications": "Account Verifications",
+      "nextOfKin": "Next Of Kin",
+      "address": "Address",
+      "applications": "Applications",
+      "employmentDetails": "Employment Details",
+      "wallet": "Wallet"
+    }
+  }
+}

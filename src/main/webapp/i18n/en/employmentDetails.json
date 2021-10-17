@@ -1,0 +1,28 @@
+{
+  "ratesApp": {
+    "employmentDetails": {
+      "home": {
+        "title": "Employment Details",
+        "createLabel": "Create a new Employment Details",
+        "createOrEditLabel": "Create or edit a Employment Details",
+        "search": "Search for Employment Details",
+        "notFound": "No Employment Details found"
+      },
+      "created": "A new Employment Details is created with identifier {{ param }}",
+      "updated": "A Employment Details is updated with identifier {{ param }}",
+      "deleted": "A Employment Details is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employment Details {{ id }}?"
+      },
+      "detail": {
+        "title": "Employment Details"
+      },
+      "companyName": "Company Name",
+      "officialWebsite": "Official Website",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "customer": "Customer",
+      "localGovt": "Local Govt"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+id;description;amount;operation;wallet_id
+1;open-source;42163;REDEMPTION;1
+2;Cotton;93134;TRANSACTION_OUT;2
+3;indigo navigate Licensed Soft Cheese;52713;FUND;3
+4;value-added PCI backing up;22440;REDEMPTION;4
+5;Regional;96827;TRANSACTION_OUT;1
+6;Borders best-of-breed;81974;WITHDRAW;2
+7;SQL Cotton;10700;TRANSACTION_OUT;3
+8;deposit;78337;WITHDRAW;4
+9;Ergonomic Philippines;74848;REDEMPTION;1
+10;Unbranded Fresh Bacon;90755;TRANSACTION_IN;2

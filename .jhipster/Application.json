@@ -1,0 +1,52 @@
+{
+  "name": "Application",
+  "fields": [
+    {
+      "fieldName": "applicationId",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique","required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "ApplicationStatus",
+      "fieldValues": "PROCESSING,COMPLETE,REDEEMED,CANCELLED",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "applications",
+      "relationshipValidateRules": "required",
+      "relationshipName": "customer",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipName": "opportunity",
+      "otherEntityName": "opportunity",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required",
+      "otherEntityField": "name",
+      "otherEntityRelationshipName": "application"
+    }
+  ],
+  "changelogDate": "20200509201900",
+  "entityTableName": "application",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*",
+  "searchEngine": "elasticsearch",
+  "databaseType": "sql"
+}

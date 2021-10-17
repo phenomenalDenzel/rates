@@ -1,0 +1,54 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+
+.how-it-works {
+  @include text(900, 36px, 42px);
+  margin-top: 30px;
+  text-align: center;
+}
+
+.works-desc {
+  @include text(normal, 14px, 180%);
+  text-align: center;
+  margin-top: 25px;
+}
+
+.works-desc span {
+  max-width: 452px;
+  display: inline-block;
+}
+
+.instructions {
+  @include text(normal, 15px, 20%);
+}
+
+.instructions span {
+  display: inline;
+  line-height: 30px;
+}
+
+.instruction-no {
+  color: $puerto-rico;
+  margin-left: 40px;
+  margin-right: 2px;
+}
+@media (max-width: $size790) {
+  .instructions {
+    margin-top: 15px;
+  }
+}
+@media (max-width: $size420) {
+  .instructions {
+    margin-top: 0;
+  }
+  .instructions span {
+    display: block;
+  }
+
+  .instruction-no {
+    color: $puerto-rico;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

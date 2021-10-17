@@ -1,0 +1,110 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.user-profile {
+  min-height: 65vh;
+  .bgColor {
+    background-color: $alabaster;
+  }
+  .previous-page {
+    img {
+      width: 12px;
+      height: 12px;
+      margin-right: 10px;
+      margin-bottom: 2px;
+    }
+    @include text(bold, 14px, 23px);
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .form-label {
+    @include text(900, 16px, 20px);
+  }
+  .form-sub-label {
+    @include text(300, 14px, 20px);
+  }
+
+  .form-field {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    font-size: 13px;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 13px;
+  }
+
+  ::placeholder {
+    font-size: 13px;
+  }
+
+  .tabs-content {
+    background-color: $alabaster;
+  }
+
+  .user-update-btn {
+    height: 40px;
+    min-width: 20%;
+    line-height: 17px;
+  }
+  .user-update {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .user-profile-container {
+    background-color: $white;
+  }
+
+  .active-tab {
+    @include text('', 14px, 20px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid $puerto-rico;
+  }
+
+  .inactive-tab {
+    @include text('', 14px, 20px, $aztec, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .tab-label {
+    font-weight: 200;
+  }
+
+  .form-content {
+    margin-bottom: 100px;
+  }
+  .fixed-bottom {
+    background-color: $white;
+    padding-top: 17px;
+    box-shadow: 0px -4px 20px rgba(225, 225, 225, 0.2);
+  }
+
+  @media (max-width: $size1024) {
+    min-height: 80vh;
+  }
+
+  @media (max-width: $size767) {
+    min-height: 70vh;
+    .form-field {
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+  }
+  @media (max-width: $size420) {
+    min-height: 60vh;
+    .form-field {
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+  }
+}

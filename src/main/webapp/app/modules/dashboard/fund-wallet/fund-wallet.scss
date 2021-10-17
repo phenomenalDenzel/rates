@@ -1,0 +1,76 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.wallet-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 25px 30px 25px;
+  z-index: 600000;
+  .fund-wallet-label {
+    @include text(bold, 18px, 18px);
+  }
+
+  .debit-card,
+  .bank-transfer {
+    @include text(bold, 13px, 18px);
+  }
+
+  .add-debt-card {
+    @include text(500, 10px, 48px, $puerto-rico);
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .or {
+    @include text(500, 10px, 58px, $aztec, 0.5);
+    letter-spacing: 2px;
+    display: block;
+  }
+
+  .account-info {
+    @include text(300, 10px, 38px);
+    display: block;
+  }
+
+  .account-details {
+    @include text(bold, 10px, 28px, $aztec, 0.5);
+    display: block;
+  }
+
+  .account-value {
+    @include text(400, 12px, 18px);
+    display: block;
+  }
+
+  .balance {
+    @include text(bold, 8px, 11px, $aztec);
+  }
+
+  .amount {
+    @include text(600, 12px, 14px, $puerto-rico);
+  }
+
+  .fund-wallet {
+    margin-left: 5px;
+    button {
+      @include text(800, 10px, 15px, $white);
+      background-color: $puerto-rico;
+    }
+  }
+
+  .wallet-box {
+    display: flex;
+    background: rgba(122, 128, 145, 0.1);
+    border-radius: 4px;
+    padding: 6px;
+  }
+}
+
+#login-page {
+  z-index: 300000;
+}
+.btn-sm {
+  border-radius: 3px;
+}

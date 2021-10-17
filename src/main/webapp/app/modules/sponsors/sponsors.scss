@@ -1,0 +1,34 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+
+.sponsors img {
+  width: 100%;
+}
+
+.sponsors {
+  padding: 10px 120px 10px 120px;
+  line-height: 140px;
+}
+
+.sponsors img {
+  width: 70%;
+}
+.sponsors .col {
+  text-align: center;
+}
+
+@media (max-width: $size575) {
+  .sponsors img {
+    width: 50px;
+  }
+}
+
+@media (max-width: $size420) {
+  .sponsors {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 140px;
+    line-height: 140px;
+  }
+}

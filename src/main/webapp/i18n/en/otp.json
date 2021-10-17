@@ -1,0 +1,27 @@
+{
+  "ratesApp": {
+    "otp": {
+      "home": {
+        "title": "Otps",
+        "createLabel": "Create a new Otp",
+        "createOrEditLabel": "Create or edit a Otp",
+        "search": "Search for Otp",
+        "notFound": "No Otps found"
+      },
+      "created": "A new Otp is created with identifier {{ param }}",
+      "updated": "A Otp is updated with identifier {{ param }}",
+      "deleted": "A Otp is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Otp {{ id }}?"
+      },
+      "detail": {
+        "title": "Otp"
+      },
+      "code": "Code",
+      "action": "Action",
+      "email": "Email",
+      "createdTime": "Created Time",
+      "used": "Used"
+    }
+  }
+}

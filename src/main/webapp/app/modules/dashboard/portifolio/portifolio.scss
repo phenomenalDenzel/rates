@@ -1,0 +1,55 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.fa-briefcase {
+  font-size: 100px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  img {
+    height: 70px;
+    opacity: 0.5;
+  }
+}
+
+.card-body {
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0px 0px 0.5px 0.5px $alto;
+}
+.portifolio-list {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+@media (max-width: $size850) {
+  .portifolio-list {
+    height: 370px;
+  }
+}
+
+@media (max-width: $size790) {
+  .portifolio-list {
+    height: 450px;
+  }
+}
+
+@media (max-width: $size680) {
+  .portifolio-list {
+    height: 580px;
+  }
+}
+
+@media (max-width: $size575) {
+  .portifolio-list {
+    height: 250px;
+  }
+}

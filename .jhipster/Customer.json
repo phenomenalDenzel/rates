@@ -1,0 +1,116 @@
+{
+  "name": "Customer",
+  "fields": [
+    {
+      "fieldName": "annualIncome",
+      "fieldType": "AnnualIncome",
+      "fieldValues": "BELOW_1M,BETWEEN_1M_5M,BETWEEN_5M_20M,ABOVE_20M"
+    },
+    {
+      "fieldName": "employmentStatus",
+      "fieldType": "EmploymentStatus",
+      "fieldValues": "EMPLOYED,UNEMPLOYED"
+    },
+    {
+      "fieldName": "qualificationLevel",
+      "fieldType": "Qualification",
+      "fieldValues": "HIGHER_NATIONAL_DIPLOMA,HIGHER_NATIONAL_CERTIFICATE,A_LEVEL,BACHELORS_DEGREE,MASTERS_DEGREE,PHD"
+    },
+    {
+      "fieldName": "mobile",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "bvn",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "required"]
+    },
+    {
+      "fieldName": "dob",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "countryOfBirth",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nationality",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mothersMaidenName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "verified",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "customer",
+      "relationshipValidateRules": "required",
+      "relationshipName": "user",
+      "otherEntityField": "login",
+      "ownerSide": true,
+      "useJPADerivedIdentifier": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "verification",
+      "otherEntityRelationshipName": "customer",
+      "relationshipName": "accountVerifications"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "nextOfKin",
+      "otherEntityRelationshipName": "customer",
+      "relationshipName": "nextOfKin"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "location",
+      "otherEntityRelationshipName": "customer",
+      "relationshipValidateRules": "required",
+      "relationshipName": "address"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "application",
+      "otherEntityRelationshipName": "customer",
+      "relationshipName": "applications"
+    },
+    {
+      "relationshipName": "employmentDetails",
+      "otherEntityName": "employmentDetails",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "customer"
+    },
+    {
+      "relationshipName": "wallet",
+      "otherEntityName": "wallet",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "customer"
+    }
+  ],
+  "changelogDate": "20200509201200",
+  "entityTableName": "customer",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*",
+  "searchEngine": "elasticsearch",
+  "databaseType": "sql"
+}

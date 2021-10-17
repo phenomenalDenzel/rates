@@ -1,0 +1,97 @@
+{
+  "home": {
+    "title": "Know<br/>Your<br/>Rates",
+    "compareinvest": "Compare and invest in selected fixed income assets",
+    "createaccount": "Create account",
+    "login": "Log in",
+    "benefits": {
+      "header": "Benefits of using rates.ng",
+      "sub": {
+        "title1": "Earn more and simplify your life",
+        "description1": "Compare and choose rates and terms from a broad range of institutions in one place.",
+        "title2": "Earn more and simplify your life",
+        "description2": "Compare and choose rates and terms from a broad range of institutions in one place.",
+        "title3": "Earn more and simplify your life",
+        "description3": "Compare and choose rates and terms from a broad range of institutions in one place.",
+        "title4": "Earn more and simplify your life",
+        "description4": "Compare and choose rates and terms from a broad range of institutions in one place."
+      },
+      "invest": {
+        "percent1": "500%",
+        "value1": "Rates.ng investors",
+        "percent2": "25%",
+        "value2": "Inflation",
+        "percent3": "25%",
+        "value3": "Broader market"
+      }
+    },
+    "howitwork": {
+      "title": "How it works",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "instruction": {
+        "no_1": "1.",
+        "signUpInvestmentWallet": "Compare different Fixed Income opportunities from across the market.",
+        "no_2": "2.",
+        "fundInvestmentWallet": "Invest directly on the platform.",
+        "no_3": "3.",
+        "browseInvestment": "Manage your portfolio - view and monitor all your investments in place. ",
+        "no_4": "4.",
+        "selectInvestment": "Reinvest or withdraw earnings easily.",
+        "no_5": "5.",
+        "instructFinancial": "Rates.ng instructs financial institution",
+        "no_6": "6.",
+        "investmentMatures": "Investment matures"
+      }
+    },
+    "manage": {
+      "title": "Manage your fixed income assets",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "learnmore": "Learn More",
+      "risk": "Risk Disclosure"
+    },
+    "footer": {
+      "list": {
+        "item1": "Stocks and funds",
+        "item2": "Options",
+        "item3": "Gold",
+        "item4": "Cash management",
+        "item5": "Learn",
+        "item6": "Support",
+        "item7": "Snack",
+        "item8": "Cash management",
+        "item9": "About Us",
+        "item10": "Carrier",
+        "item11": "Company news"
+      },
+      "newsletter": {
+        "title": "Sign up to our newsletters",
+        "subscribe": "Subscribe"
+      },
+      "termandcondtion": "Rates.ng Terms and Conditions",
+      "disclosure": "Disclosure Library",
+      "reservedright": "© 2019 Rates.ng All rights reserved.",
+      "note": "RatesNG is an alternative investment marketplace owned and operated by [Name of Company], a private company duly registered under the extant law regulating business and non-business organizations in Nigeria, with registered company number - xxx.",
+      "about": {
+        "text1": "It is important that you are aware that RatesNG does not give investment advice or recommend any securities, as it is not registered as an Exchange, Dealer, Broker, Broker/Dealer, Alternative Trading Facility, Crowdfunding Portal or investment adviser with the Securities and Exchange Commission in Nigeria.",
+        "link1": "FINRA’s BrokerCheck.",
+        "text2": "The use and access to RatesNG are regulated by our Terms of Use and Privacy Policy. We enjoin you to read through these documents before proceeding to subscribe to any offers listed on this website and also read our 'About Us' summarizing how we operate as an alternative investment marketplace.",
+        "link2": "Financial Industry Regulatory Authority (FINRA)."
+      },
+      "riskdisclosure": "View important disclosures"
+    },
+    "subtitle": "This is your homepage",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    },
+    "question": "If you have any question on JHipster:",
+    "link": {
+      "homepage": "JHipster homepage",
+      "stackoverflow": "JHipster on Stack Overflow",
+      "bugtracker": "JHipster bug tracker",
+      "chat": "JHipster public chat room",
+      "follow": "follow @jhipster on Twitter"
+    },
+    "like": "If you like JHipster, don't forget to give us a star on",
+    "github": "GitHub"
+  }
+}

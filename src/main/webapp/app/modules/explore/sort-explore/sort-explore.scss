@@ -1,0 +1,28 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.sort-content {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  .highest-to {
+    font-weight: 400;
+    opacity: 0.8;
+    padding-left: 8px;
+  }
+  .btn-secondary,
+  .dropdown-menu,
+  .dropdown-item,
+  .dropdown-item:focus,
+  .show:active,
+  secondary:not(:disabled):not(.disabled):active,
+  .downdown-link .btn-secondary:not(:disabled):not(.disabled).active,
+  .show > .btn-secondary.dropdown-toggle {
+    @include text(bold, 10px, 100%, $white);
+    background-color: $puerto-rico;
+    margin: 0;
+    padding: 0;
+  }
+}

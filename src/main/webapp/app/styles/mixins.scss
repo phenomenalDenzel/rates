@@ -1,0 +1,28 @@
+@import 'app/styles/colors.scss';
+
+@mixin text($fontweight, $fontsize, $lineheight, $color: $aztec, $opacity: 1) {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: $fontweight;
+  font-size: $fontsize;
+  line-height: $lineheight;
+  color: $color;
+  opacity: $opacity;
+}
+
+@mixin hover-effect($color: 'transparent') {
+  background-color: $color;
+}
+
+@mixin button($width, $background: $puerto-rico, $borderColor: $puerto-rico, $height: 30px, $lineHeight: 10px, $borderRadius: 3px) {
+  width: $width;
+  height: $height;
+  line-height: $lineHeight;
+  border-radius: $borderRadius;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-transform: none;
+  border: 1px solid $borderColor;
+  background-color: $background;
+}

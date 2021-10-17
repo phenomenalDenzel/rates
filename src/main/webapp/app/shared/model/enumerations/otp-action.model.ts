@@ -1,0 +1,7 @@
+export const enum OtpAction {
+  ACTIVATION = 'ACTIVATION',
+
+  WITHDRAWAL = 'WITHDRAWAL',
+
+  RESET_PASSWORD = 'RESET_PASSWORD',
+}

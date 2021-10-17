@@ -1,0 +1,28 @@
+{
+  "ratesApp": {
+    "opportunityDocument": {
+      "home": {
+        "title": "Opportunity Documents",
+        "createLabel": "Create a new Opportunity Document",
+        "createOrEditLabel": "Create or edit a Opportunity Document",
+        "search": "Search for Opportunity Document",
+        "notFound": "No Opportunity Documents found"
+      },
+      "created": "A new Opportunity Document is created with identifier {{ param }}",
+      "updated": "A Opportunity Document is updated with identifier {{ param }}",
+      "deleted": "A Opportunity Document is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Opportunity Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Opportunity Document"
+      },
+      "name": "Name",
+      "description": "Description",
+      "file": "File",
+      "archived": "Archived",
+      "archiveUrl": "Archive Url",
+      "opportunity": "Opportunity"
+    }
+  }
+}

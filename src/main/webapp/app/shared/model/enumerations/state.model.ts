@@ -1,0 +1,75 @@
+export const enum State {
+  ABIA = 'ABIA',
+
+  ABUJA = 'ABUJA',
+
+  ADAMAWA = 'ADAMAWA',
+
+  AKWA_IBOM = 'AKWA_IBOM',
+
+  ANAMBRA = 'ANAMBRA',
+
+  BAUCHI = 'BAUCHI',
+
+  BAYELSA = 'BAYELSA',
+
+  BENUE = 'BENUE',
+
+  BORNO = 'BORNO',
+
+  CROSS_RIVER = 'CROSS_RIVER',
+
+  DELTA = 'DELTA',
+
+  EBONYI = 'EBONYI',
+
+  ENUGU = 'ENUGU',
+
+  EDO = 'EDO',
+
+  EKITI = 'EKITI',
+
+  GOMBE = 'GOMBE',
+
+  IMO = 'IMO',
+
+  JIGAWA = 'JIGAWA',
+
+  KADUNA = 'KADUNA',
+
+  KANO = 'KANO',
+
+  KATSINA = 'KATSINA',
+
+  KEBBI = 'KEBBI',
+
+  KOGI = 'KOGI',
+
+  KWARA = 'KWARA',
+
+  LAGOS = 'LAGOS',
+
+  NASARAWA = 'NASARAWA',
+
+  NIGER = 'NIGER',
+
+  OGUN = 'OGUN',
+
+  ONDO = 'ONDO',
+
+  OSUN = 'OSUN',
+
+  OYO = 'OYO',
+
+  PLATEAU = 'PLATEAU',
+
+  RIVERS = 'RIVERS',
+
+  SOKOTO = 'SOKOTO',
+
+  TARABA = 'TARABA',
+
+  YOBE = 'YOBE',
+
+  ZAMFARA = 'ZAMFARA',
+}

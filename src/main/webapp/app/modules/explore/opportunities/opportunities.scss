@@ -1,0 +1,67 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.opportunity {
+  background-color: $white;
+  padding: 16px;
+  .name,
+  .value {
+    @include text(bold, 16px, 17px);
+    padding-bottom: 5px;
+  }
+
+  .green {
+    color: $puerto-rico;
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    height: 35px;
+  }
+
+  .provider-name {
+    height: 25px;
+  }
+  .describe {
+    @include text(400, 13px, 15px, $aztec, 0.6);
+    padding: 5px 0 5px 0;
+  }
+
+  .closing-date {
+    @include text(400, 13px, 30px, $red);
+  }
+
+  .view-details {
+    @include text(400, 12px, 30px);
+    height: 30px;
+    cursor: pointer;
+    min-width: 200px;
+  }
+
+  .view-details img {
+    height: 8px;
+    width: 15px;
+  }
+  .btn-opportuunity {
+    width: 100%;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 3px;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+    background: $puerto-rico;
+    color: $white;
+  }
+
+  .provider-label {
+    @include text(400, 10px, 100%, $aztec, 0.6);
+    padding: 5px 0 5px 0;
+  }
+
+  .item-alignment {
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Opportunity",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "OpportunityType",
+      "fieldValues": "ETHICAL_FUND,BALANCED_FUND,CONSERVATIVE_FUND,COLLECTIVE_INVESTMENT_FUND,TREASURY_BILL,MONEY_MARKET_FUND,HALAL_FUND,DOLLAR_FUND,GUARANTEED_TRUST_INVESTMENT",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "summary",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "fundSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "visible",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "interestRate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "tenor",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "effectiveApr",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "minimumInvestment",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "denomination",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": []
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "opportunityDocument",
+      "otherEntityRelationshipName": "opportunity",
+      "relationshipName": "documents"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "provider",
+      "otherEntityRelationshipName": "opportunities",
+      "relationshipValidateRules": "required",
+      "relationshipName": "provider",
+      "otherEntityField": "name"
+    }
+  ],
+  "changelogDate": "20200509201700",
+  "entityTableName": "opportunity",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*",
+  "searchEngine": "elasticsearch",
+  "databaseType": "sql"
+}

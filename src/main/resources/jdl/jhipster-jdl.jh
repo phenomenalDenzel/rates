@@ -1,0 +1,129 @@
+entity LocalGovt {
+	name String required
+    state State required
+    active Boolean
+}
+
+enum State {
+	ABIA,ADAMAWA,AKWA_IBOM,ANAMBRA,BAUCHI,BAYELSA,BENUE,BORNO,CROSS_RIVER,DELTA,EBONYI,ENUGU,EDO,EKITI,GOMBE,IMO,JIGAWA,KADUNA,KANO,KATSINA,KEBBI,KOGI,KWARA,LAGOS,NASARAWA,NIGER,OGUN,ONDO,OSUN,OYO,PLATEAU,RIVERS,SOKOTO,TARABA,YOBE,ZAMFARA
+}
+
+entity Location {
+	addressLine1 String,
+    addressLine2 String
+}
+
+enum VerificationItem {
+	PICTURE, ID_CARD, UTILITY_BILL
+}
+
+entity Verification {
+	itemName VerificationItem
+    description String
+	image ImageBlob,
+	archived Boolean,
+    // cloud url when image is archived
+    archiveUrl String
+}
+
+entity Customer {
+  mobile String required,
+  bvn String unique required,
+  dob LocalDate required
+}
+
+entity NextOfKin {
+    name String,
+    relation String,
+    phoneNumber String
+}
+
+entity Wallet {
+	externalId String required,
+    balance BigDecimal required,
+}
+
+enum OperationType {
+ FUND, WITHDRAW, TRANSACTION_IN, TRANSACTION_OUT, REDEMPTION
+}
+
+entity WalletOperation {
+	description String,
+	amount BigDecimal required,
+    operation OperationType required
+
+}
+
+entity Provider {
+	name String required,
+    logo ImageBlob,
+    //contact Info is TBC
+    contactInfo String
+}
+
+enum OpportunityType {
+	MUTUAL_FUND
+}
+
+entity Opportunity {
+	name String required,
+    type OpportunityType required,
+    summary TextBlob,
+    fundSize String,
+	startDate Instant required,
+	endDate Instant required,
+    visible Boolean,
+	interestRate Double,
+    tenor Integer,
+    effectiveApr Double,
+    minimumInvestment BigDecimal
+}
+
+entity OpportunityDocument {
+	name String required
+    description String
+    file ImageBlob
+    archived Boolean
+    archiveUrl String
+}
+
+entity Application {
+	applicationId String required
+    status ApplicationStatus required
+    amount BigDecimal required
+}
+
+enum ApplicationStatus {
+	PROCESSING, COMPLETE, REDEEMED, CANCELLED
+}
+
+relationship OneToOne {
+	Location{localGovt(name) required} to LocalGovt
+	Customer{wallet} to Wallet{owner required}
+    Application{opportunity(name) required} to Opportunity
+    Customer{user(login) required} to User with jpaDerivedIdentifier
+}
+
+
+relationship OneToMany {
+	Customer{accountVerifications(itemName)} to Verification{customer required}
+    Customer{nextOfKin(name)} to NextOfKin{customer required}
+    Customer{address required} to Location{customer}
+    Customer{applications(applicationId)} to Application{customer required}
+    Opportunity{documents(name)} to OpportunityDocument{opportunity(name) required}
+    Provider{opportunities(name)} to Opportunity{provider(name) required}
+    Wallet{transactions} to WalletOperation{wallet(externalId) required}
+}
+
+// Set pagination options
+paginate Opportunity with infinite-scroll
+paginate WalletOperation, Application with pagination
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceClass
+
+search Opportunity, Customer with elasticsearch
+

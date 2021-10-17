@@ -1,0 +1,421 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import '~bootswatch/dist/lux/variables';
+// Import Bootstrap source files from node_modules
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/lux/bootswatch';
+
+/* ==========================================================================
+Developement Ribbon
+========================================================================== */
+.container-content {
+  padding: 0 5%;
+}
+.navbar {
+  padding: 0;
+}
+
+.ribbon {
+  background-color: rgba(170, 0, 0, 0.5);
+  left: -3.5em;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+  width: 15em;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0.75;
+  a {
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    margin: 1px 0;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 5px #444;
+    pointer-events: none;
+  }
+}
+
+/* ==========================================================================
+Navbar styles
+========================================================================== */
+.navbar-version {
+  font-size: 10px;
+  color: $header-color-secondary;
+  padding: 0 0 0 10px;
+}
+
+.brand-logo {
+  &:hover {
+    text-decoration: none;
+  }
+  .brand-icon {
+    height: 35px;
+    width: auto;
+    display: inline-block;
+    img {
+      height: 45px;
+    }
+  }
+}
+
+.brand-title {
+  font-size: 24px;
+  color: $header-color;
+  &:hover {
+    color: $header-color-hover;
+    text-decoration: none;
+  }
+}
+
+.loading-bar {
+  height: 3px;
+  background-color: #009cd8;
+  position: absolute;
+  top: 0px;
+  z-index: 1031;
+}
+
+.header-style {
+  @include text(bold, 14px, 17px);
+  margin-bottom: 30px;
+}
+
+.header-style .about {
+  margin-right: 43px;
+}
+
+.header-alignment {
+  height: 2px;
+  line-height: 2;
+}
+
+.header-style a {
+  text-decoration: none;
+}
+.brand-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-circle {
+  border: 1px $black solid;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* ==========================================================================
+Dashboard Header styles
+========================================================================== */
+.is-active {
+  @include text(bold, 14px, 23px, $puerto-rico);
+}
+
+ul li {
+  @include text(bold, 14px, 23px);
+}
+ul li a:hover {
+  text-decoration: none;
+}
+.navbar-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand-text {
+  line-height: 35px;
+}
+.signed-as {
+  @include text(200, 10px, 12px, rgba(122, 128, 145, 0.5));
+}
+
+.user-name {
+  @include text(800, 12px, 15px, $aztec);
+}
+
+.lang-btn {
+  @include text(600, 10px, 12px, $white);
+  background-color: $puerto-rico;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.balance {
+  @include text(bold, 8px, 11px, $aztec);
+}
+
+.amount {
+  @include text(600, 12px, 14px, $puerto-rico);
+}
+
+.fund-wallet {
+  margin-left: 5px;
+  button {
+    @include text(800, 10px, 15px, $white);
+    background-color: $puerto-rico;
+  }
+}
+
+.wallet-box {
+  display: flex;
+  background: rgba(122, 128, 145, 0.1);
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar,
+.navbar-expand-md {
+  padding-right: 0;
+}
+.loggedin-user {
+  display: inline-block;
+}
+
+.d-semi-lg {
+  display: none;
+}
+.mini-user-profile {
+  border-radius: 5px;
+}
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logout-item {
+  color: $puerto-rico;
+  text-transform: none;
+}
+.logout-about {
+  color: $black;
+  text-transform: none;
+}
+.logout-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.notification-icon {
+  display: flex;
+  align-items: center;
+}
+
+.sm-profile {
+  display: none;
+}
+@media (max-width: $size1050) {
+  .mobile-layout {
+    display: block;
+  }
+  .smd-hide {
+    display: none;
+  }
+
+  .dropdown-item {
+    padding-left: 10px;
+  }
+  .profile-dropdown {
+    display: flex;
+  }
+  .dropdown-item {
+    padding-right: 12px;
+  }
+  .d-semi-lg {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 925px) {
+  .nav-item {
+    margin-right: 10px;
+    padding-right: 0;
+  }
+}
+@media (max-width: $size850) {
+  .fund-wallet {
+    button {
+      font-size: 9px;
+    }
+  }
+  .amount {
+    font-size: 10px;
+  }
+  .header-style {
+    .about {
+      margin-right: 23px;
+    }
+  }
+  .notification-icon {
+    display: none;
+  }
+}
+
+@media (max-width: $size790) {
+  .header-style {
+    .about {
+      margin-right: 23px;
+    }
+  }
+  .dashboard-navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: $size767) {
+  .dashboard-navbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: -12px;
+    .nav {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .fixed-top {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .mobile-layout {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .show {
+    .navbar-nav {
+      display: flex;
+      direction: column;
+      li {
+        text-align: center;
+        height: 30px;
+        margin-top: 10px;
+      }
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .navbar-brand {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar {
+    justify-content: start;
+    .brand-nav,
+    .active {
+      padding: 3px;
+      margin-right: 0px;
+    }
+    .notification {
+      display: inline-block;
+      padding-right: 3px;
+      margin: 0;
+    }
+  }
+
+  .dashboard-navbar {
+    background-color: $white;
+    top: 80px;
+    left: 0;
+
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    li {
+      a {
+        height: 30px;
+        text-align: center;
+        display: inline-block;
+      }
+    }
+  }
+  .nav-item {
+    padding: 0;
+    margin: 0;
+  }
+
+  .sm-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: $size420) {
+  .header-style {
+    .about {
+      margin-right: 10px;
+    }
+  }
+  .brand-text,
+  .login-register {
+    font-size: 13px;
+    font-weight: 900;
+  }
+  .navbar-toggler {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: $size375) {
+  .brand-text {
+    display: none;
+  }
+}
+
+.downdown-link:active {
+  color: $alto;
+}
+
+.downdown-link:focus,
+button {
+  background-color: $alto;
+  border-color: $alto;
+}
+.downdown-link:focus,
+.downdown-link:active {
+  outline: none;
+  box-shadow: none;
+  background-color: $alto;
+  border-color: $alto;
+}
+.downdown-link {
+  .btn-secondary:not(:disabled):not(.disabled):active,
+  .btn-secondary:not(:disabled):not(.disabled).active,
+  .show > .btn-secondary.dropdown-toggle,
+  .btn-secondary:focus {
+    color: $aztec;
+    background-color: $white;
+    border-color: $white;
+  }
+  .btn-secondary.focus {
+    box-shadow: $white;
+  }
+}
+
+/* ==========================================================================
+End of Dashboard Header styles
+========================================================================== */

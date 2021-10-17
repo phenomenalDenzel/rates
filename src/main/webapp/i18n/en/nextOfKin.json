@@ -1,0 +1,55 @@
+{
+  "ratesApp": {
+    "nextOfKin": {
+      "home": {
+        "title": "Next Of Kins",
+        "createLabel": "Create a new Next Of Kin",
+        "createOrEditLabel": "Create or edit a Next Of Kin",
+        "search": "Search for Next Of Kin",
+        "notFound": "No Next Of Kins found"
+      },
+      "created": "A new Next Of Kin is created with identifier {{ param }}",
+      "updated": "A Next Of Kin is updated with identifier {{ param }}",
+      "deleted": "A Next Of Kin is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Next Of Kin {{ id }}?"
+      },
+      "detail": {
+        "title": "Next Of Kin"
+      },
+      "title": "Title",
+      "relation": "Relation",
+      "name": "Name",
+      "phoneNumber": "Phone Number",
+      "customer": "Customer",
+      "form": {
+        "title": "Next of Kin Information",
+        "subtitle": "Enter your basic details as they appear on your identification document",
+        "name.placeholder": "Next of kin Name",
+        "relation.placeholder": "Next of kin Relationship",
+        "phonenumber.placeholder": "Next of kin Phone Number"
+      },
+      "messages": {
+        "validate": {
+          "name": {
+            "required": "Your next of kin's name is required.",
+            "minlength": "Your next of kin's name is required to be at least 4 characters.",
+            "maxlength": "Your next of kin's name cannot be longer than 50 characters."
+          },
+          "relation": {
+            "required": "Your next of kin's relationship is required.",
+            "minlength": "Your next of kin's relationship is required to be at least 4 characters.",
+            "maxlength": "Your next of kin's relationship cannot be longer than 50 characters."
+          },
+          "phonenumber": {
+            "required": "Your next of kin's phone number is required.",
+            "minlength": "Your next of kin's phone number is required to be at least 11 characters.",
+            "maxlength": "Your next of kin's phone number cannot be longer than 11 characters."
+          }
+        },
+        "step": "Step",
+        "footer": "By clicking on \"continue\" or \"skip\" you agree to terms of service and privacy policy"
+      }
+    }
+  }
+}

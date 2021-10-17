@@ -1,0 +1,75 @@
+{
+  "register": {
+    "title": "Registration",
+    "subtitle": "Are you a qualified investor",
+    "required": "*",
+    "required.label": "Required",
+    "description": {
+      "first.paragraph": "1. By agreeing, you confirm that you will be fully responsible for all activity in your account - including all investment decisions and transactions.",
+      "second.paragraph": "You confirm that you will not allow any unauthorised person to make use of your account in any way and take full responsibility for any loss, financial or otherwise, that occurs as a result of unauthorised use of your account.",
+      "third.paragraph": "2. You acknowledge that Rates.ng does not provide any financial, investment or legal advice and you are fully responsible for any investment decisions.",
+      "fourth.paragraph": "Any information or data on the platform is for information purposes only and does not amount to financial, legal or investment advice. You should consult with qualified advisers for these matters."
+    },
+    "form.label": "I agree with the terms stated above",
+    "continue.button": "Continue",
+    "personal.info": {
+      "title": "Personal Information",
+      "subtitle": "Enter your basic details as they appear on your identification document"
+    },
+    "verifyaccount": {
+      "title": "Account Verification",
+      "subtitle": "Please help us fully verify your account by providing some documentation.",
+      "select.file": "Select file",
+      "documents": {
+        "picture": "Take a picture",
+        "identity.card": "Identity card",
+        "utility.bill": "Utility bill",
+        "address.proof": "(Proof of address)"
+      }
+    },
+    "bank.info": {
+      "title": "Bank Information",
+      "subtitle": "Enter your basic details as they appear on your identification document"
+    },
+    "employment.info": {
+      "title": "Employment/Qualifications",
+      "subtitle": "Enter your employment/qualification details"
+    },
+    "skip": "SKIP",
+    "message": {
+      "validate": {
+        "firstname": {
+          "required": "Your first name is required.",
+          "minlength": "Your first name is required to be at least 1 character.",
+          "maxlength": "Your first name cannot be longer than 50 characters.",
+          "username.pattern": "Your first name is invalid."
+        },
+        "lastname": {
+          "required": "Your last name is required.",
+          "minlength": "Your last name is required to be at least 1 character.",
+          "maxlength": "Your last name cannot be longer than 50 characters.",
+          "username.pattern": "Your last name is invalid."
+        }
+      }
+    },
+    "form": {
+      "button": "Register"
+    },
+    "messages": {
+      "validate": {
+        "login": {
+          "required": "Your username is required.",
+          "minlength": "Your username is required to be at least 1 character.",
+          "maxlength": "Your username cannot be longer than 50 characters.",
+          "pattern": "Your username is invalid."
+        }
+      },
+      "success": "<strong>Registration saved!</strong> Please check your email for confirmation.",
+      "error": {
+        "fail": "<strong>Registration failed!</strong> Please try again later.",
+        "userexists": "<strong>Login name already registered!</strong> Please choose another one.",
+        "emailexists": "<strong>Email is already in use!</strong> Please choose another one."
+      }
+    }
+  }
+}

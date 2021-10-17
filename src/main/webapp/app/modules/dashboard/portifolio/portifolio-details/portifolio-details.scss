@@ -1,0 +1,114 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.border-bottom-detail {
+  border-bottom: none;
+}
+.portifolio-name {
+  @include text(bold, 19px, 22px);
+}
+
+.portifolio-desc {
+  @include text(400, 16px, 26px, $aztec, 0.5);
+}
+
+.total-earning {
+  @include text(bold, 14px, 22px);
+  text-align: right;
+}
+
+.amount-earned {
+  @include text(600, 18px, 28px, $puerto-rico);
+  text-align: right;
+}
+
+.portifolio-fund-title {
+  @include text(bold, 13px, 15px);
+  margin-top: 13px;
+}
+
+.portifolio-fund-amount {
+  @include text(500, 21px, 19px);
+}
+
+.portifolio-fund-label {
+  @include text(300, 12px, 38px, $aztec, 0.5);
+}
+
+.portifolio-fund-value {
+  @include text(bold, 15px, 22px);
+}
+
+.summary-text {
+  @include text(normal, 13px, 23px);
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.detail-border {
+  border-right: $alabaster 2px solid;
+}
+
+.portifolio-details {
+  padding: 25px 45px 25px 30px;
+  border-left: $alabaster 4px solid;
+}
+
+.tab-details {
+  margin-top: 40px;
+}
+.redemption-date {
+  min-width: 40%;
+}
+
+.redemption-tenor {
+  min-width: 20%;
+}
+
+@media (max-width: $size767) {
+  .tab-details {
+    margin-top: 0;
+  }
+  .border-bottom-detail {
+    border-bottom: 1px solid $off-white;
+    padding-bottom: 15px;
+  }
+  .portifolio-name {
+    @include text(bold, 14px, 22px);
+  }
+
+  .portifolio-desc {
+    @include text(400, 11px, 26px, $aztec, 0.5);
+  }
+
+  .total-earning {
+    @include text(bold, 9px, 22px);
+  }
+
+  .amount-earned {
+    @include text(600, 16px, 28px, $puerto-rico);
+  }
+
+  .portifolio-fund-title {
+    @include text(bold, 9px, 15px);
+    margin-top: 20px;
+  }
+
+  .portifolio-fund-amount {
+    @include text(500, 19px, 19px);
+  }
+
+  .portifolio-fund-label {
+    @include text(300, 10px, 18px, $aztec, 0.5);
+  }
+
+  .portifolio-fund-value {
+    @include text(bold, 12px, 22px);
+  }
+
+  .summary-text {
+    @include text(normal, 11px, 23px);
+  }
+}

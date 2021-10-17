@@ -1,0 +1,11 @@
+id;name;type;summary;fund_size;start_date;end_date;visible;interest_rate;tenor;effective_apr;minimum_investment;denomination;provider_id
+1;Estate high-level Palestinian Territory;COLLECTIVE_INVESTMENT_FUND;../fake-data/blob/hipster.txt;4.5bn;2020-05-09T01:29:25;2020-05-09T13:01:11;false;15;24;20;50337;32588;1
+2;HDD;COLLECTIVE_INVESTMENT_FUND;../fake-data/blob/hipster.txt;18m;2020-05-09T04:23:14;2020-05-09T10:50:53;false;10;12;25;53989;394;2
+3;Baby driver indigo;MONEY_MARKET_FUND;../fake-data/blob/hipster.txt;200m;2020-05-09T11:35:48;2020-05-08T23:05:43;false;5;24;20;87564;81566;3
+4;Leone cohesive e-commerce;COLLECTIVE_INVESTMENT_FUND;../fake-data/blob/hipster.txt;250m;2020-05-09T00:43:00;2020-05-08T20:44:21;false;15;12;25;23891;70903;4
+5;Forward;COLLECTIVE_INVESTMENT_FUND;../fake-data/blob/hipster.txt;800m;2020-05-09T17:19:52;2020-05-08T21:01:39;false;10;18;20;57993;36318;5
+6;Cambridgeshire overriding;MONEY_MARKET_FUND;../fake-data/blob/hipster.txt;70m;2020-05-08T23:30:30;2020-05-09T08:50:16;true;5;18;25;619;53219;6
+7;Philippines metrics Stand-alone;COLLECTIVE_INVESTMENT_FUND;../fake-data/blob/hipster.txt;2bn;2020-05-09T15:14:35;2020-05-08T22:48:47;false;15;12;20;94276;44993;7
+8;online Washington;GUARANTEED_TRUST_INVESTMENT;../fake-data/blob/hipster.txt;800m;2020-05-09T03:54:42;2020-05-09T13:31:33;true;10;24;25;90647;16187;8
+9;responsive;TREASURY_BILL;../fake-data/blob/hipster.txt;250m;2020-05-09T06:40:39;2020-05-09T19:55:09;true;5;18;20;1793;8330;9
+10;interface software;ETHICAL_FUND;../fake-data/blob/hipster.txt;4.5bn;2020-05-09T18:38:22;2020-05-09T03:10:58;false;15;60;25;85571;20084;10

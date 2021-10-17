@@ -1,0 +1,127 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.register-page {
+  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: $white;
+}
+.register-title {
+  @include text(800, 26px, 100%);
+  margin-top: 30px;
+}
+.sub-step-title {
+  @include text(normal, 11px, 23px, $color: $aztec, $opacity: 0.5);
+}
+.selection:invalid,
+.selection option[value=''],
+input[type='date']:invalid::-webkit-datetime-edit {
+  color: #999;
+}
+
+.progress {
+  background: $alto;
+  border-radius: 8px;
+  height: 6px;
+  margin-top: 13px;
+}
+
+.progress-bar {
+  background: $puerto-rico;
+}
+
+.reg-term {
+  display: inline-block;
+  margin-bottom: 50px;
+  height: 18px;
+  line-height: 18px;
+  padding-left: 9px;
+}
+.input-reg-checkbox {
+  float: left;
+}
+
+.doc-container {
+  margin-bottom: 70px;
+}
+
+.doc-item {
+  border: 3px solid rgba(57, 57, 62, 0.05);
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  height: 160px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.proof-of-address {
+  @include text(normal, 12px, 23px, $color: $aztec, $opacity: 0.4);
+}
+
+.doc-item img {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.upload-file {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+.doc-container label {
+  @include text(300, 13px, 16px, $color: $puerto-rico);
+}
+
+.skip {
+  @include text(bold, 14px, 57px, $color: $aztec);
+  text-align: center;
+  cursor: pointer;
+}
+.form-control,
+.input-group-prepend {
+  display: inline;
+}
+
+.phone-code {
+  @include text(200, 10px, 17px, $color: $aztec);
+  letter-spacing: -0.3px;
+  padding-left: 5px;
+}
+
+.preview-image {
+  max-width: 100px;
+}
+
+.invalid-message {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: $red;
+}
+
+.file-error {
+  border: 1px solid $red;
+  color: $red;
+}
+
+.resend-link {
+  @include text(normal, 14px, 30px, $puerto-rico);
+  cursor: pointer;
+}
+
+.terms-paragragh {
+  @include text(normal, 14px, 23px, $aztec, 0.5);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}

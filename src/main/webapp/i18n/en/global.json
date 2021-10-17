@@ -1,0 +1,255 @@
+{
+  "global": {
+    "title": "Rates",
+    "logolabel": "rates.ng",
+    "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
+    "user.profile": "User Profile",
+    "menu": {
+      "home": "Home",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "entities": {
+        "main": "Entities",
+        "localGovt": "Local Govt",
+        "location": "Location",
+        "verification": "Verification",
+        "customer": "Customer",
+        "nextOfKin": "Next Of Kin",
+        "wallet": "Wallet",
+        "walletOperation": "Wallet Operation",
+        "provider": "Provider",
+        "opportunity": "Opportunity",
+        "opportunityDocument": "Opportunity Document",
+        "application": "Application",
+        "otp": "Otp",
+        "employmentDetails": "Employment Details",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+      },
+      "account": {
+        "main": "Account",
+        "settings": "Settings",
+        "password": "Password",
+        "sessions": "Sessions",
+        "login": "Sign in",
+        "logout": "Sign out",
+        "register": "Register"
+      },
+      "admin": {
+        "main": "Administration",
+        "userManagement": "User management",
+        "tracker": "User tracker",
+        "metrics": "Metrics",
+        "health": "Health",
+        "configuration": "Configuration",
+        "logs": "Logs",
+        "audits": "Audits",
+        "apidocs": "API",
+        "database": "Database",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Language"
+    },
+    "form": {
+      "username.label": "Username",
+      "username.placeholder": "Your username",
+      "currentpassword.label": "Current password",
+      "currentpassword.placeholder": "Current password",
+      "password.placeholder": "Your password",
+      "newpassword.label": "New password",
+      "newpassword.placeholder": "New password",
+      "retypepassword.placeholder": "Retype new Password",
+      "confirmpassword.label": "New password confirmation",
+      "confirmpassword.placeholder": "Confirm the new password",
+      "email.label": "Email",
+      "email.placeholder": "Your email",
+      "email.address": "Email Address",
+      "mobile.label": "Mobile",
+      "phone.number": "Phone Number",
+      "mobile.placeholder": "Your mobile number",
+      "dob.label": "Date of Birth",
+      "dob.placeholder": "Your date of birth",
+      "bvn.label": "BVN",
+      "bvn.placeholder": "Your BVN",
+      "firstname.placeholder": "Your First Name",
+      "lastname.placeholder": "Your Last Name",
+      "address.placeholder": "Home Address",
+      "office.address.placeholder": "Office Address",
+      "office.address2.placeholder": "Office Address (line 2)",
+      "address2.placeholder": "Home Address (line 2)",
+      "state.placeholder": "Select your state",
+      "lga.placeholder": "Local government area",
+      "accountnumber.placeholder": "Bank Account Number",
+      "accountname.placeholder": "Account Name",
+      "country.of.birth.placeholder": "Country of birth",
+      "nationality.placeholder": "Nationality",
+      "mother.maiden.name.placeholder": "Mother's Maiden Name",
+      "company.name.placeholder": "Company  Name",
+      "official.website.placeholder": "Official website"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "If you want to ",
+          "link": "sign in",
+          "suffix": ", you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+        },
+        "register": {
+          "noaccount": "You don't have an account yet?",
+          "link": "Register a new account"
+        }
+      },
+      "error": {
+        "dontmatch": "The new password and its confirmation do not match!"
+      },
+      "validate": {
+        "currentpassword": {
+          "required": "Your current password is required.",
+          "minlength": "Your current password is required to be at least 4 characters.",
+          "maxlength": "Your current password cannot be longer than 50 characters.",
+          "strength": "current password strength:"
+        },
+        "maiden.name": {
+          "required": "Your mother's maiden name is required.",
+          "minlength": "Your mother's maiden name is required to be at least 4 characters.",
+          "maxlength": "Your mother's maiden name cannot be longer than 50 characters."
+        },
+        "newpassword": {
+          "required": "Your password is required.",
+          "minlength": "Your password is required to be at least 4 characters.",
+          "maxlength": "Your password cannot be longer than 50 characters.",
+          "strength": "Password strength:"
+        },
+        "confirmpassword": {
+          "required": "Your confirmation password is required.",
+          "minlength": "Your confirmation password is required to be at least 4 characters.",
+          "maxlength": "Your confirmation password cannot be longer than 50 characters."
+        },
+        "email": {
+          "required": "Your email is required.",
+          "invalid": "Your email is invalid.",
+          "minlength": "Your email is required to be at least 5 characters.",
+          "maxlength": "Your email cannot be longer than 50 characters."
+        },
+        "bvn": {
+          "exist": "Your BVN already exist.",
+          "required": "Your BVN is required.",
+          "invalid": "Your BVN is invalid.",
+          "minlength": "Your BVN must be 11 characters.",
+          "maxlength": "Your BVN must be 11 characters."
+        },
+        "mobile": {
+          "required": "Your Phone number is required.",
+          "invalid": "Your Phone number is invalid.",
+          "minlength": "Your Phone number is required to be at least 11 characters.",
+          "maxlength": "Your Phone number cannot be longer than 13 characters."
+        },
+        "dob": {
+          "required": "Your Date of birth is required.",
+          "invalid": "Your Date of birth is invalid."
+        },
+        "address": {
+          "required": "Your address is required.",
+          "invalid": "Your address is invalid.",
+          "minlength": "Your address is required to be at least 5 characters.",
+          "maxlength": "Your address cannot be longer than 50 characters."
+        },
+        "address2": {
+          "required": "Your address(line2) is required.",
+          "invalid": "Your address(line2) is invalid.",
+          "minlength": "Your address(line2) is required to be at least 5 characters.",
+          "maxlength": "Your address(line2) cannot be longer than 50 characters."
+        },
+        "firstname": {
+          "required": "Your First Name is required.",
+          "minlength": "Your First Name is required to be at least 2 characters.",
+          "maxlength": "Your First Name cannot be longer than 50 characters."
+        },
+        "lastname": {
+          "required": "Your Last Name is required.",
+          "minlength": "Your Last Name is required to be at least 2 characters.",
+          "maxlength": "Your Last Name cannot be longer than 50 characters."
+        },
+        "lga": {
+          "required": "Your Local governemnt area is required.",
+          "minlength": "Your Local governemnt area is required to be at least 2 characters.",
+          "maxlength": "Your Local governemnt area cannot be longer than 50 characters."
+        },
+        "accountname": {
+          "required": "Your Account name is required.",
+          "minlength": "Your Account name is required to be at least 2 characters.",
+          "maxlength": "Your Account name cannot be longer than 50 characters."
+        },
+        "accountnumber": {
+          "required": "Your Account number is required.",
+          "minlength": "Your Account number must be 10 characters.",
+          "maxlength": "Your Account number must be 10 characters."
+        },
+        "official.website": {
+          "required": "Your Office website is required.",
+          "minlength": "Your Office website must be 3 characters."
+        },
+        "company.name": {
+          "required": "Your company name is required.",
+          "minlength": "Your company name must be 3 characters."
+        }
+      }
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Development"
+    },
+    "item-count": "Showing {{first}} - {{second}} of {{total}} items.",
+    "loading": "Loading ..."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Add blob",
+      "addimage": "Add image",
+      "back": "Back",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "open": "Open",
+      "save": "Save",
+      "view": "View"
+    },
+    "detail": {
+      "field": "Field",
+      "value": "Value"
+    },
+    "delete": {
+      "title": "Confirm delete operation"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "minlength": "This field is required to be at least {{ min }} characters.",
+      "maxlength": "This field cannot be longer than {{ max }} characters.",
+      "min": "This field should be at least {{ min }}.",
+      "max": "This field cannot be more than {{ max }}.",
+      "minbytes": "This field should be at least {{ min }} bytes.",
+      "maxbytes": "This field cannot be more than {{ max }} bytes.",
+      "pattern": "This field should follow pattern for {{ pattern }}.",
+      "number": "This field should be a number.",
+      "datetimelocal": "This field should be a date and time.",
+      "patternLogin": "This field can only contain letters, digits and e-mail addresses."
+    }
+  },
+  "error": {
+    "insufficient.fund": "Insufficient Fund",
+    "internalServerError": "Internal server error",
+    "server.not.reachable": "Server not reachable",
+    "url.not.found": "Not found",
+    "NotNull": "Field {{ fieldName }} cannot be empty!",
+    "Size": "Field {{ fieldName }} does not meet min/max size requirements!",
+    "userexists": "Login name already used!",
+    "emailexists": "Email is already in use!",
+    "idexists": "A new {{ entityName }} cannot already have an ID",
+    "idnull": "Invalid ID",
+    "file": {
+      "could.not.extract": "Could not extract file",
+      "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
+    }
+  },
+  "footer": "This is your footer"
+}

@@ -1,0 +1,11 @@
+id;application_id;status;amount;created_by;last_modified_by;customer_id;opportunity_id
+1;Car payment;REDEEMED;35406;system;system;1;1
+2;Directives;PROCESSING;22937;system;system;2;2
+3;Dalasi;CANCELLED;36972;system;system;3;3
+4;Clothing;COMPLETE;3593;system;system;4;4
+5;3rd generation Lead;PROCESSING;86782;system;system;1;5
+6;Architect asymmetric;CANCELLED;76185;system;system;2;6
+7;auxiliary;COMPLETE;30800;system;system;3;7
+8;Uganda Steel foreground;COMPLETE;8683;system;system;4;8
+9;Decentralized;PROCESSING;79104;system;system;1;9
+10;Guinea Franc dot-com;CANCELLED;11206;system;system;2;10

@@ -1,0 +1,47 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.detail-profile {
+  .back-to-explore {
+    img {
+      width: 14px;
+      height: 14px;
+      margin-right: 5px;
+      margin-bottom: 2px;
+    }
+    @include text(bold, 16px, 63px);
+    padding-bottom: 10px;
+  }
+  .opportunity-owner {
+    display: flex;
+    padding-bottom: 30px;
+    img {
+      width: 60px;
+      height: 60px;
+      margin: 5px 20px 5px 0px;
+    }
+    .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .name {
+      @include text(500, 16px, 25px);
+    }
+  }
+  .btn-opportunity,
+  .btn-opportunity:hover {
+    @include text(bold, 13px, 33px, $white);
+    @include button(100px);
+  }
+  .closing-date {
+    @include text(600, 14px, 63px, $red);
+    padding-bottom: 10px;
+  }
+  .describe {
+    @include text(400, 13px, 25px, $aztec, 0.6);
+    padding-top: 10px;
+  }
+}

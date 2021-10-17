@@ -1,0 +1,776 @@
+id;name;state;active
+1;Aba North;ABIA;true
+2;Aba South;ABIA;true
+3;Arochukwu;ABIA;true
+4;Bende;ABIA;true
+5;Ikwuano;ABIA;true
+6;Isiala-Ngwa North;ABIA;true
+7;Isiala-Ngwa South;ABIA;true
+8;Isuikwuato;ABIA;true
+9;Obi Ngwa;ABIA;true
+10;Ohafia;ABIA;true
+11;Osisioma Ngwa;ABIA;true
+12;Ugwunagbo;ABIA;true
+13;Ukwa East;ABIA;true
+14;Ukwa West;ABIA;true
+15;Umuahia North;ABIA;true
+16;Umuahia South;ABIA;true
+17;Umu-Nneochi;ABIA;true
+18;Demsa;ADAMAWA;true
+19;Fufore;ADAMAWA;true
+20;Ganye;ADAMAWA;true
+21;Girei;ADAMAWA;true
+22;Gombi;ADAMAWA;true
+23;Guyuk;ADAMAWA;true
+24;Hong;ADAMAWA;true
+25;Jada;ADAMAWA;true
+26;Lamurde;ADAMAWA;true
+27;Madagali;ADAMAWA;true
+28;Maiha;ADAMAWA;true
+29;Mayo-Belwa;ADAMAWA;true
+30;Michika;ADAMAWA;true
+31;Mubi North;ADAMAWA;true
+32;Mubi South;ADAMAWA;true
+33;Numan;ADAMAWA;true
+34;Shelleng;ADAMAWA;true
+35;Song;ADAMAWA;true
+36;Toungo;ADAMAWA;true
+37;Yola North;ADAMAWA;true
+38;Yola South;ADAMAWA;true
+39;Abak;AKWA_IBOM;true
+40;Eastern Obolo;AKWA_IBOM;true
+41;Eket;AKWA_IBOM;true
+42;Esit Eket;AKWA_IBOM;true
+43;Essien Udim;AKWA_IBOM;true
+44;Etim Ekpo;AKWA_IBOM;true
+45;Etinan;AKWA_IBOM;true
+46;Ibeno;AKWA_IBOM;true
+47;Ibesikpo Asutan;AKWA_IBOM;true
+48;Ibiono Ibom;AKWA_IBOM;true
+49;Ika;AKWA_IBOM;true
+50;Ikono;AKWA_IBOM;true
+51;Ikot Abasi;AKWA_IBOM;true
+52;Ikot Ekpene;AKWA_IBOM;true
+53;Ini;AKWA_IBOM;true
+54;Itu;AKWA_IBOM;true
+55;Mbo;AKWA_IBOM;true
+56;Mkpat Enin;AKWA_IBOM;true
+57;Nsit Atai;AKWA_IBOM;true
+58;Nsit Ibom;AKWA_IBOM;true
+59;Nsit Ubium;AKWA_IBOM;true
+60;Obot Akara;AKWA_IBOM;true
+61;Okobo;AKWA_IBOM;true
+62;Onna;AKWA_IBOM;true
+63;Oron;AKWA_IBOM;true
+64;Oruk Anam;AKWA_IBOM;true
+65;Udung Uko;AKWA_IBOM;true
+66;Ukanafun;AKWA_IBOM;true
+67;Uruan;AKWA_IBOM;true
+68;Urue-Offong/Oruko;AKWA_IBOM;true
+69;Uyo;AKWA_IBOM;true
+70;Aguata;ANAMBRA;true
+71;Anambra East;ANAMBRA;true
+72;Anambra West;ANAMBRA;true
+73;Anaocha;ANAMBRA;true
+74;Awka North;ANAMBRA;true
+75;Awka South;ANAMBRA;true
+76;Ayamelum;ANAMBRA;true
+77;Dunukofia;ANAMBRA;true
+78;Ekwusigo;ANAMBRA;true
+79;Idemili North;ANAMBRA;true
+80;Idemili South;ANAMBRA;true
+81;Ihiala;ANAMBRA;true
+82;Njikoka;ANAMBRA;true
+83;Nnewi North;ANAMBRA;true
+84;Nnewi South;ANAMBRA;true
+85;Ogbaru;ANAMBRA;true
+86;Onitsha North;ANAMBRA;true
+87;Onitsha South;ANAMBRA;true
+88;Orumba North;ANAMBRA;true
+89;Orumba South;ANAMBRA;true
+90;Oyi;ANAMBRA;true
+91;Alkaleri;BAUCHI;true
+92;Bauchi;BAUCHI;true
+93;Bogoro;BAUCHI;true
+94;Damban;BAUCHI;true
+95;Darazo;BAUCHI;true
+96;Dass;BAUCHI;true
+97;Gamawa;BAUCHI;true
+98;Ganjuwa;BAUCHI;true
+99;Giade;BAUCHI;true
+100;Itas/Gadau;BAUCHI;true
+101;Jama'are;BAUCHI;true
+102;Katagum;BAUCHI;true
+103;Kirfi;BAUCHI;true
+104;Misau;BAUCHI;true
+105;Ningi;BAUCHI;true
+106;Shira;BAUCHI;true
+107;Tafawa-Balewa;BAUCHI;true
+108;Toro;BAUCHI;true
+109;Warji;BAUCHI;true
+110;Zaki;BAUCHI;true
+111;Brass;BAYELSA;true
+112;Ekeremor;BAYELSA;true
+113;Kolokuma/Opokuma;BAYELSA;true
+114;Nembe;BAYELSA;true
+115;Ogbia;BAYELSA;true
+116;Sagbama;BAYELSA;true
+117;Southern Ijaw;BAYELSA;true
+118;Yenagoa;BAYELSA;true
+119;Ado;BENUE;true
+120;Agatu;BENUE;true
+121;Apa;BENUE;true
+122;Buruku;BENUE;true
+123;Gboko;BENUE;true
+124;Guma;BENUE;true
+125;Gwer East;BENUE;true
+126;Gwer West;BENUE;true
+127;KATSINA-Ala;BENUE;true
+128;Konshisha;BENUE;true
+129;Kwande;BENUE;true
+130;Logo;BENUE;true
+131;Makurdi;BENUE;true
+132;Obi;BENUE;true
+133;Ogbadibo;BENUE;true
+134;Ohimini;BENUE;true
+135;Oju;BENUE;true
+136;Okpokwu;BENUE;true
+137;Oturkpo;BENUE;true
+138;Tarka;BENUE;true
+139;Ukum;BENUE;true
+140;Ushongo;BENUE;true
+141;Vandeikya;BENUE;true
+142;Abadam;BORNO;true
+143;Askira/Uba;BORNO;true
+144;Bama;BORNO;true
+145;Bayo;BORNO;true
+146;Biu;BORNO;true
+147;Chibok;BORNO;true
+148;Damboa;BORNO;true
+149;Dikwa;BORNO;true
+150;Gubio;BORNO;true
+151;Guzamala;BORNO;true
+152;Gwoza;BORNO;true
+153;Hawul;BORNO;true
+154;Jere;BORNO;true
+155;Kaga;BORNO;true
+156;Kala/Balge;BORNO;true
+157;Konduga;BORNO;true
+158;Kukawa;BORNO;true
+159;Kwaya Kusar;BORNO;true
+160;Mafa;BORNO;true
+161;Magumeri;BORNO;true
+162;Maiduguri;BORNO;true
+163;Marte;BORNO;true
+164;Mobbar;BORNO;true
+165;Monguno;BORNO;true
+166;Ngala;BORNO;true
+167;Nganzai;BORNO;true
+168;Shani;BORNO;true
+169;Abi;CROSS_RIVER;true
+170;Akamkpa;CROSS_RIVER;true
+171;Akpabuyo;CROSS_RIVER;true
+172;Bakassi;CROSS_RIVER;true
+173;BeKWARA;CROSS_RIVER;true
+174;Biase;CROSS_RIVER;true
+175;Boki;CROSS_RIVER;true
+176;Calabar Municipal;CROSS_RIVER;true
+177;Calabar South;CROSS_RIVER;true
+178;Etung;CROSS_RIVER;true
+179;Ikom;CROSS_RIVER;true
+180;Obanliku;CROSS_RIVER;true
+181;Obubra;CROSS_RIVER;true
+182;Obudu;CROSS_RIVER;true
+183;Odukpani;CROSS_RIVER;true
+184;Ogoja;CROSS_RIVER;true
+185;Yakurr;CROSS_RIVER;true
+186;Yala;CROSS_RIVER;true
+187;Aniocha North;DELTA;true
+188;Aniocha South;DELTA;true
+189;Bomadi;DELTA;true
+190;Burutu;DELTA;true
+191;Ethiope East;DELTA;true
+192;Ethiope West;DELTA;true
+193;Ika North East;DELTA;true
+194;Ika South;DELTA;true
+195;Isoko North;DELTA;true
+196;Isoko South;DELTA;true
+197;Ndokwa East;DELTA;true
+198;Ndokwa West;DELTA;true
+199;Okpe;DELTA;true
+200;Oshimili North;DELTA;true
+201;Oshimili South;DELTA;true
+202;Patani;DELTA;true
+203;Sapele;DELTA;true
+204;Udu;DELTA;true
+205;Ughelli North;DELTA;true
+206;Ughelli South;DELTA;true
+207;Ukwuani;DELTA;true
+208;Uvwie;DELTA;true
+209;Warri North;DELTA;true
+210;Warri South;DELTA;true
+211;Warri South West;DELTA;true
+212;Abakaliki;EBONYI;true
+213;Afikpo North;EBONYI;true
+214;Afikpo South;EBONYI;true
+215;Ebonyi;EBONYI;true
+216;Ezza North;EBONYI;true
+217;Ezza South;EBONYI;true
+218;Ikwo;EBONYI;true
+219;Ishielu;EBONYI;true
+220;Ivo;EBONYI;true
+221;Izzi;EBONYI;true
+222;Ohaozara;EBONYI;true
+223;Ohaukwu;EBONYI;true
+224;Onicha;EBONYI;true
+225;Akoko-Edo;EDO;true
+226;Egor;EDO;true
+227;Esan Central;EDO;true
+228;Esan North East;EDO;true
+229;Esan South East;EDO;true
+230;Esan West;EDO;true
+231;Etsako Central;EDO;true
+232;Etsako East;EDO;true
+233;Etsako West;EDO;true
+234;Igueben;EDO;true
+235;Ikpoba-Okha;EDO;true
+236;Oredo;EDO;true
+237;Orhionmwon;EDO;true
+238;Ovia North East;EDO;true
+239;Ovia South West;EDO;true
+240;Owan East;EDO;true
+241;Owan West;EDO;true
+242;Uhunmwonde;EDO;true
+243;Ado Ekiti;EKITI;true
+244;Aiyekire (Gbonyin);EKITI;true
+245;Efon;EKITI;true
+246;Ekiti East;EKITI;true
+247;Ekiti South West;EKITI;true
+248;Ekiti West;EKITI;true
+249;Emure;EKITI;true
+250;Ido-Osi;EKITI;true
+251;Ijero;EKITI;true
+252;Ikere;EKITI;true
+253;Ikole;EKITI;true
+254;Ilejemeje;EKITI;true
+255;Irepodun/Ifelodun;EKITI;true
+256;Ise/Orun;EKITI;true
+257;Moba;EKITI;true
+258;Oye;EKITI;true
+259;Aninri;ENUGU;true
+260;Awgu;ENUGU;true
+261;Enugu East;ENUGU;true
+262;Enugu North;ENUGU;true
+263;Enugu South;ENUGU;true
+264;Ezeagu;ENUGU;true
+265;Igbo-Etiti;ENUGU;true
+266;Igbo-Eze North;ENUGU;true
+267;Igbo-Eze South;ENUGU;true
+268;Isi-Uzo;ENUGU;true
+269;Nkanu East;ENUGU;true
+270;Nkanu West;ENUGU;true
+271;Nsukka;ENUGU;true
+272;Oji-River;ENUGU;true
+273;Udenu;ENUGU;true
+274;Udi;ENUGU;true
+275;Uzo-Uwani;ENUGU;true
+276;Abaji;ABUJA;true
+277;Abuja Municipal Area Council;ABUJA;true
+278;Bwari;ABUJA;true
+279;Gwagwalada;ABUJA;true
+280;Kuje;ABUJA;true
+281;Kwali;ABUJA;true
+282;Akko;GOMBE;true
+283;Balanga;GOMBE;true
+284;Billiri;GOMBE;true
+285;Dukku;GOMBE;true
+286;Funakaye;GOMBE;true
+287;Gombe;GOMBE;true
+288;Kaltungo;GOMBE;true
+289;Kwami;GOMBE;true
+290;Nafada;GOMBE;true
+291;Shomgom;GOMBE;true
+292;Yamaltu/Deba;GOMBE;true
+293;Abo-Mbaise;IMO;true
+294;Ahiazu-Mbaise;IMO;true
+295;Ehime-Mbano;IMO;true
+296;Ezinihitte;IMO;true
+297;Ideato North;IMO;true
+298;Ideato South;IMO;true
+299;Ihitte/Uboma;IMO;true
+300;Ikeduru;IMO;true
+301;Isiala-Mbano;IMO;true
+302;Isu;IMO;true
+303;Mbaitoli;IMO;true
+304;Ngor-Okpala;IMO;true
+305;Njaba;IMO;true
+306;Nkwerre;IMO;true
+307;Nwangele;IMO;true
+308;Obowo;IMO;true
+309;Oguta;IMO;true
+310;Ohaji/Egbema;IMO;true
+311;Okigwe;IMO;true
+312;Orlu;IMO;true
+313;Orsu;IMO;true
+314;Oru East;IMO;true
+315;Oru West;IMO;true
+316;Owerri Municipal;IMO;true
+317;Owerri North;IMO;true
+318;Owerri West;IMO;true
+319;Unuimo;IMO;true
+320;Auyo;JIGAWA;true
+321;Babura;JIGAWA;true
+322;Biriniwa;JIGAWA;true
+323;Birnin Kudu;JIGAWA;true
+324;Buji;JIGAWA;true
+325;Dutse;JIGAWA;true
+326;Gagarawa;JIGAWA;true
+327;Garki;JIGAWA;true
+328;Gumel;JIGAWA;true
+329;Guri;JIGAWA;true
+330;Gwaram;JIGAWA;true
+331;Gwiwa;JIGAWA;true
+332;Hadejia;JIGAWA;true
+333;Jahun;JIGAWA;true
+334;Kafin Hausa;JIGAWA;true
+335;Kaugama;JIGAWA;true
+336;Kazaure;JIGAWA;true
+337;Kiri Kasama;JIGAWA;true
+338;Kiyawa;JIGAWA;true
+339;Maigatari;JIGAWA;true
+340;Malam Madori;JIGAWA;true
+341;Miga;JIGAWA;true
+342;Ringim;JIGAWA;true
+343;Roni;JIGAWA;true
+344;Sule Tankarkar;JIGAWA;true
+345;Taura;JIGAWA;true
+346;Yankwashi;JIGAWA;true
+347;Birnin-Gwari;KADUNA;true
+348;Chikun;KADUNA;true
+349;Giwa;KADUNA;true
+350;Igabi;KADUNA;true
+351;Ikara;KADUNA;true
+352;Jaba;KADUNA;true
+353;Jema'a;KADUNA;true
+354;Kachia;KADUNA;true
+355;Kaduna North;KADUNA;true
+356;Kaduna South;KADUNA;true
+357;Kagarko;KADUNA;true
+358;Kajuru;KADUNA;true
+359;Kaura;KADUNA;true
+360;Kauru;KADUNA;true
+361;Kubau;KADUNA;true
+362;Kudan;KADUNA;true
+363;Lere;KADUNA;true
+364;Makarfi;KADUNA;true
+365;Sabon-Gari;KADUNA;true
+366;Sanga;KADUNA;true
+367;Soba;KADUNA;true
+368;Zangon-Kataf;KADUNA;true
+369;Zaria;KADUNA;true
+370;Ajingi;KANO;true
+371;Albasu;KANO;true
+372;Bagwai;KANO;true
+373;Bebeji;KANO;true
+374;Bichi;KANO;true
+375;Bunkure;KANO;true
+376;Dala;KANO;true
+377;Dambatta;KANO;true
+378;Dawakin Kudu;KANO;true
+379;Dawakin Tofa;KANO;true
+380;Doguwa;KANO;true
+381;Fagge;KANO;true
+382;Gabasawa;KANO;true
+383;Garko;KANO;true
+384;Garum Mallam;KANO;true
+385;Gaya;KANO;true
+386;Gezawa;KANO;true
+387;Gwale;KANO;true
+388;Gwarzo;KANO;true
+389;Kabo;KANO;true
+390;Kano Municipal;KANO;true
+391;Karaye;KANO;true
+392;Kibiya;KANO;true
+393;Kiru;KANO;true
+394;Kumbotso;KANO;true
+395;Kunchi;KANO;true
+396;Kura;KANO;true
+397;Madobi;KANO;true
+398;Makoda;KANO;true
+399;Minjibir;KANO;true
+400;NASARAWA;KANO;true
+401;Rano;KANO;true
+402;Rimin Gado;KANO;true
+403;Rogo;KANO;true
+404;Shanono;KANO;true
+405;Sumaila;KANO;true
+406;Takai;KANO;true
+407;Tarauni;KANO;true
+408;Tofa;KANO;true
+409;Tsanyawa;KANO;true
+410;Tudun Wada;KANO;true
+411;Ungogo;KANO;true
+412;Warawa;KANO;true
+413;Wudil;KANO;true
+414;Bakori;KATSINA;true
+415;Batagarawa;KATSINA;true
+416;Batsari;KATSINA;true
+417;Baure;KATSINA;true
+418;Bindawa;KATSINA;true
+419;Charanchi;KATSINA;true
+420;Dandume;KATSINA;true
+421;Danja;KATSINA;true
+422;Dan Musa;KATSINA;true
+423;Daura;KATSINA;true
+424;Dutsi;KATSINA;true
+425;Dutsin-Ma;KATSINA;true
+426;Faskari;KATSINA;true
+427;Funtua;KATSINA;true
+428;Ingawa;KATSINA;true
+429;Jibia;KATSINA;true
+430;Kafur;KATSINA;true
+431;Kaita;KATSINA;true
+432;Kankara;KATSINA;true
+433;Kankia;KATSINA;true
+434;Katsina;KATSINA;true
+435;Kurfi;KATSINA;true
+436;Kusada;KATSINA;true
+437;Mai'adua;KATSINA;true
+438;Malumfashi;KATSINA;true
+439;Mani;KATSINA;true
+440;Mashi;KATSINA;true
+441;Matazu;KATSINA;true
+442;Musawa;KATSINA;true
+443;Rimi;KATSINA;true
+444;Sabuwa;KATSINA;true
+445;Safana;KATSINA;true
+446;Sandamu;KATSINA;true
+447;Zango;KATSINA;true
+448;Aleiro;KEBBI;true
+449;Arewa-Dandi;KEBBI;true
+450;Argungu;KEBBI;true
+451;Augie;KEBBI;true
+452;Bagudo;KEBBI;true
+453;Birnin Kebbi;KEBBI;true
+454;Bunza;KEBBI;true
+455;Dandi;KEBBI;true
+456;Fakai;KEBBI;true
+457;Gwandu;KEBBI;true
+458;Jega;KEBBI;true
+459;Kalgo;KEBBI;true
+460;Koko/Besse;KEBBI;true
+461;Maiyama;KEBBI;true
+462;Ngaski;KEBBI;true
+463;Sakaba;KEBBI;true
+464;Shanga;KEBBI;true
+465;Suru;KEBBI;true
+466;Wasagu/Danko;KEBBI;true
+467;Yauri;KEBBI;true
+468;Zuru;KEBBI;true
+469;Adavi;KOGI;true
+470;Ajaokuta;KOGI;true
+471;Ankpa;KOGI;true
+472;Bassa;KOGI;true
+473;Dekina;KOGI;true
+474;Ibaji;KOGI;true
+475;Idah;KOGI;true
+476;Igalamela-Odolu;KOGI;true
+477;Ijumu;KOGI;true
+478;Kabba/Bunu;KOGI;true
+479;Kogi;KOGI;true
+480;Lokoja;KOGI;true
+481;Mopa-Muro;KOGI;true
+482;Ofu;KOGI;true
+483;Ogori/Magongo;KOGI;true
+484;Okehi;KOGI;true
+485;Okene;KOGI;true
+486;Olamaboro;KOGI;true
+487;Omala;KOGI;true
+488;Yagba East;KOGI;true
+489;Yagba West;KOGI;true
+490;Asa;KWARA;true
+491;Baruten;KWARA;true
+492;Edu;KWARA;true
+493;EKITI;KWARA;true
+494;Ifelodun;KWARA;true
+495;Ilorin East;KWARA;true
+496;Ilorin South;KWARA;true
+497;Ilorin West;KWARA;true
+498;Irepodun;KWARA;true
+499;Isin;KWARA;true
+500;Kaiama;KWARA;true
+501;Moro;KWARA;true
+502;Offa;KWARA;true
+503;Oke-Ero;KWARA;true
+504;Oyun;KWARA;true
+505;Pategi;KWARA;true
+506;Agege;LAGOS;true
+507;Ajeromi-Ifelodun;LAGOS;true
+508;Alimosho;LAGOS;true
+509;Amuwo-Odofin;LAGOS;true
+510;Apapa;LAGOS;true
+511;Badagry;LAGOS;true
+512;Epe;LAGOS;true
+513;Eti-Osa;LAGOS;true
+514;Ibeju/Lekki;LAGOS;true
+515;Ifako-Ijaye;LAGOS;true
+516;Ikeja;LAGOS;true
+517;Ikorodu;LAGOS;true
+518;Kosofe;LAGOS;true
+519;LAGOS Island;LAGOS;true
+520;LAGOS Mainland;LAGOS;true
+521;Mushin;LAGOS;true
+522;Ojo;LAGOS;true
+523;Oshodi-Isolo;LAGOS;true
+524;Shomolu;LAGOS;true
+525;Surulere;LAGOS;true
+526;Akwanga;NASARAWA;true
+527;Awe;NASARAWA;true
+528;Doma;NASARAWA;true
+529;Karu;NASARAWA;true
+530;Keana;NASARAWA;true
+531;Keffi;NASARAWA;true
+532;Kokona;NASARAWA;true
+533;Lafia;NASARAWA;true
+534;Nasarawa;NASARAWA;true
+535;Nasarawa-Eggon;NASARAWA;true
+536;Obi;NASARAWA;true
+537;Toto;NASARAWA;true
+538;Wamba;NASARAWA;true
+539;Agaie;NIGER;true
+540;Agwara;NIGER;true
+541;Bida;NIGER;true
+542;Borgu;NIGER;true
+543;Bosso;NIGER;true
+544;Chanchaga;NIGER;true
+545;Edati;NIGER;true
+546;Gbako;NIGER;true
+547;Gurara;NIGER;true
+548;Katcha;NIGER;true
+549;Kontagora;NIGER;true
+550;Lapai;NIGER;true
+551;Lavun;NIGER;true
+552;Magama;NIGER;true
+553;Mariga;NIGER;true
+554;Mashegu;NIGER;true
+555;Mokwa;NIGER;true
+556;Muya;NIGER;true
+557;Paikoro;NIGER;true
+558;Rafi;NIGER;true
+559;Rijau;NIGER;true
+560;Shiroro;NIGER;true
+561;Suleja;NIGER;true
+562;Tafa;NIGER;true
+563;Wushishi;NIGER;true
+564;Abeokuta North;OGUN;true
+565;Abeokuta South;OGUN;true
+566;Ado-Odo/Ota;OGUN;true
+567;Ewekoro;OGUN;true
+568;Ifo;OGUN;true
+569;Ijebu East;OGUN;true
+570;Ijebu North;OGUN;true
+571;Ijebu North East;OGUN;true
+572;Ijebu Ode;OGUN;true
+573;Ikenne;OGUN;true
+574;Imeko Afon;OGUN;true
+575;Ipokia;OGUN;true
+576;Obafemi-Owode;OGUN;true
+577;Odeda;OGUN;true
+578;Odogbolu;OGUN;true
+579;Ogun Waterside;OGUN;true
+580;Remo North;OGUN;true
+581;Sagamu;OGUN;true
+582;Yewa North (Egbado North);OGUN;true
+583;Yewa South (Egbado South);OGUN;true
+584;Akoko North East;ONDO;true
+585;Akoko North West;ONDO;true
+586;Akoko South East;ONDO;true
+587;Akoko South West;ONDO;true
+588;Akure North;ONDO;true
+589;Akure South;ONDO;true
+590;Ese-Odo;ONDO;true
+591;Idanre;ONDO;true
+592;Ifedore;ONDO;true
+593;Ilaje;ONDO;true
+594;Ile-Oluji-Okeigbo;ONDO;true
+595;Irele;ONDO;true
+596;Odigbo;ONDO;true
+597;Okitipupa;ONDO;true
+598;Ondo East;ONDO;true
+599;Ondo West;ONDO;true
+600;Ose;ONDO;true
+601;Owo;ONDO;true
+602;Aiyedaade;OSUN;true
+603;Aiyedire;OSUN;true
+604;Atakunmosa East;OSUN;true
+605;Atakunmosa West;OSUN;true
+606;Boluwaduro;OSUN;true
+607;Boripe;OSUN;true
+608;Ede North;OSUN;true
+609;Ede South;OSUN;true
+610;Egbedore;OSUN;true
+611;Ejigbo;OSUN;true
+612;Ife Central;OSUN;true
+613;Ifedayo;OSUN;true
+614;Ife East;OSUN;true
+615;Ifelodun;OSUN;true
+616;Ife North;OSUN;true
+617;Ife South;OSUN;true
+618;Ila;OSUN;true
+619;Ilesha East;OSUN;true
+620;Ilesha West;OSUN;true
+621;Irepodun;OSUN;true
+622;Irewole;OSUN;true
+623;Isokan;OSUN;true
+624;Iwo;OSUN;true
+625;Obokun;OSUN;true
+626;Odo-Otin;OSUN;true
+627;Ola-Oluwa;OSUN;true
+628;Olorunda;OSUN;true
+629;Oriade;OSUN;true
+630;Orolu;OSUN;true
+631;Osogbo;OSUN;true
+632;Afijio;OYO;true
+633;Akinyele;OYO;true
+634;Atiba;OYO;true
+635;Atisbo;OYO;true
+636;Egbeda;OYO;true
+637;Ibadan North;OYO;true
+638;Ibadan North East;OYO;true
+639;Ibadan North West;OYO;true
+640;Ibadan South East;OYO;true
+641;Ibadan South West;OYO;true
+642;Ibarapa Central;OYO;true
+643;Ibarapa East;OYO;true
+644;Ibarapa North;OYO;true
+645;Ido;OYO;true
+646;Irepo;OYO;true
+647;Iseyin;OYO;true
+648;Itesiwaju;OYO;true
+649;Iwajowa;OYO;true
+650;Kajola;OYO;true
+651;Lagelu;OYO;true
+652;Ogbomosho North;OYO;true
+653;Ogbomosho South;OYO;true
+654;Ogo Oluwa;OYO;true
+655;Olorunsogo;OYO;true
+656;Oluyole;OYO;true
+657;Ona-Ara;OYO;true
+658;Orelope;OYO;true
+659;Ori Ire;OYO;true
+660;Oyo East;OYO;true
+661;Oyo West;OYO;true
+662;Saki East;OYO;true
+663;Saki West;OYO;true
+664;Surulere;OYO;true
+665;Barkin Ladi;PLATEAU;true
+666;Bassa;PLATEAU;true
+667;Bokkos;PLATEAU;true
+668;Jos East;PLATEAU;true
+669;Jos North;PLATEAU;true
+670;Jos South;PLATEAU;true
+671;Kanam;PLATEAU;true
+672;Kanke;PLATEAU;true
+673;Langtang North;PLATEAU;true
+674;Langtang South;PLATEAU;true
+675;Mangu;PLATEAU;true
+676;Mikang;PLATEAU;true
+677;Pankshin;PLATEAU;true
+678;Qua'an Pan;PLATEAU;true
+679;Riyom;PLATEAU;true
+680;Shendam;PLATEAU;true
+681;Wase;PLATEAU;true
+682;Abua - Odual;RIVERS;true
+683;Ahoada East;RIVERS;true
+684;Ahoada West;RIVERS;true
+685;Akuku Toru;RIVERS;true
+686;Andoni;RIVERS;true
+687;Asari-Toru;RIVERS;true
+688;Bonny;RIVERS;true
+689;Degema;RIVERS;true
+690;Eleme;RIVERS;true
+691;Emuoha;RIVERS;true
+692;Etche;RIVERS;true
+693;Gokana;RIVERS;true
+694;Ikwerre;RIVERS;true
+695;Khana;RIVERS;true
+696;Obio/Akpor;RIVERS;true
+697;Ogba - Egbema - Ndoni;RIVERS;true
+698;Ogu - Bolo;RIVERS;true
+699;Okrika;RIVERS;true
+700;Omumma;RIVERS;true
+701;Opobo - Nkoro;RIVERS;true
+702;Oyigbo;RIVERS;true
+703;Port-Harcourt;RIVERS;true
+704;Tai;RIVERS;true
+705;Binji;SOKOTO;true
+706;Bodinga;SOKOTO;true
+707;Dange Shuni;SOKOTO;true
+708;Gada;SOKOTO;true
+709;Goronyo;SOKOTO;true
+710;Gudu;SOKOTO;true
+711;Gwadabawa;SOKOTO;true
+712;Illela;SOKOTO;true
+713;Isa;SOKOTO;true
+714;Kebbe;SOKOTO;true
+715;Kware;SOKOTO;true
+716;Rabah;SOKOTO;true
+717;Sabon Birni;SOKOTO;true
+718;Shagari;SOKOTO;true
+719;Silame;SOKOTO;true
+720;Sokoto North;SOKOTO;true
+721;Sokoto South;SOKOTO;true
+722;Tambuwal;SOKOTO;true
+723;Tangaza;SOKOTO;true
+724;Tureta;SOKOTO;true
+725;Wamakko;SOKOTO;true
+726;Wurno;SOKOTO;true
+727;Yabo;SOKOTO;true
+728;Ardo-Kola;TARABA;true
+729;Bali;TARABA;true
+730;Disputed Areas;TARABA;true
+731;Donga;TARABA;true
+732;Gashaka;TARABA;true
+733;Gassol;TARABA;true
+734;Ibi;TARABA;true
+735;Jalingo;TARABA;true
+736;Karim-Lamido;TARABA;true
+737;Kurmi;TARABA;true
+738;Lau;TARABA;true
+739;Sardauna;TARABA;true
+740;Takum;TARABA;true
+741;Ussa;TARABA;true
+742;Wukari;TARABA;true
+743;Yorro;TARABA;true
+744;Zing;TARABA;true
+745;Bade;YOBE;true
+746;Bursari;YOBE;true
+747;Damaturu;YOBE;true
+748;Fika;YOBE;true
+749;Fune;YOBE;true
+750;Geidam;YOBE;true
+751;Gujba;YOBE;true
+752;Gulani;YOBE;true
+753;Jakusko;YOBE;true
+754;Karasuwa;YOBE;true
+755;Machina;YOBE;true
+756;Nangere;YOBE;true
+757;Nguru;YOBE;true
+758;Potiskum;YOBE;true
+759;Tarmua;YOBE;true
+760;Yunusari;YOBE;true
+761;Yusufari;YOBE;true
+762;Anka;ZAMFARA;true
+763;Bakura;ZAMFARA;true
+764;Birnin Magaji;ZAMFARA;true
+765;Bukkuyum;ZAMFARA;true
+766;Bungudu;ZAMFARA;true
+767;Gummi;ZAMFARA;true
+768;Gusau;ZAMFARA;true
+769;Kaura Namoda;ZAMFARA;true
+770;Maradun;ZAMFARA;true
+771;Maru;ZAMFARA;true
+772;Shinkafi;ZAMFARA;true
+773;Talata Mafara;ZAMFARA;true
+774;Tsafe;ZAMFARA;true
+775;Zurmi;ZAMFARA;true

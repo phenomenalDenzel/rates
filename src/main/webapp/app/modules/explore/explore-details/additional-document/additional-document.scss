@@ -1,0 +1,17 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.additional-document {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: $white;
+  .name {
+    @include text(bold, 15px, 43px);
+  }
+
+  .describe {
+    @include text(400, 12px, 30px, $aztec, 0.6);
+  }
+}

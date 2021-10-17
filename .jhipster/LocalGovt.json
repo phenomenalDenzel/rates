@@ -1,0 +1,31 @@
+{
+  "name": "LocalGovt",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "State",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "ABIA,ABUJA,ADAMAWA,AKWA_IBOM,ANAMBRA,BAUCHI,BAYELSA,BENUE,BORNO,CROSS_RIVER,DELTA,EBONYI,ENUGU,EDO,EKITI,GOMBE,IMO,JIGAWA,KADUNA,KANO,KATSINA,KEBBI,KOGI,KWARA,LAGOS,NASARAWA,NIGER,OGUN,ONDO,OSUN,OYO,PLATEAU,RIVERS,SOKOTO,TARABA,YOBE,ZAMFARA"
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    }
+  ],
+  "changelogDate": "20200509200900",
+  "entityTableName": "local_govt",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

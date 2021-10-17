@@ -1,0 +1,36 @@
+{
+  "ratesApp": {
+    "opportunity": {
+      "home": {
+        "title": "Opportunities",
+        "createLabel": "Create a new Opportunity",
+        "createOrEditLabel": "Create or edit a Opportunity",
+        "search": "Search for Opportunity",
+        "notFound": "No Opportunities found"
+      },
+      "created": "A new Opportunity is created with identifier {{ param }}",
+      "updated": "A Opportunity is updated with identifier {{ param }}",
+      "deleted": "A Opportunity is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Opportunity {{ id }}?"
+      },
+      "detail": {
+        "title": "Opportunity"
+      },
+      "name": "Name",
+      "type": "Type",
+      "summary": "Summary",
+      "fundSize": "Fund Size",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "visible": "Visible",
+      "interestRate": "Interest Rate",
+      "tenor": "Tenor",
+      "effectiveApr": "Effective Apr",
+      "minimumInvestment": "Minimum Investment",
+      "denomination": "Denomination",
+      "documents": "Documents",
+      "provider": "Provider"
+    }
+  }
+}

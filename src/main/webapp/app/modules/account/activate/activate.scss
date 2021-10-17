@@ -1,0 +1,31 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.otp-activate {
+  div {
+    text-align: center;
+  }
+  .check-email {
+    @include text(normal, 17px, 30px, $puerto-rico);
+    padding-top: 50px;
+  }
+  .activation-note {
+    @include text(normal, 14px, 17px, $color: $aztec, $opacity: 0.4);
+  }
+
+  .activate-account {
+    @include text(normal, 17px, 30px, $puerto-rico);
+    margin-top: 10px;
+  }
+  .resend-link {
+    @include text(normal, 14px, 30px, $puerto-rico);
+    cursor: pointer;
+  }
+  .otp-input {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+}

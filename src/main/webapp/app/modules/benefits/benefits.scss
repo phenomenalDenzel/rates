@@ -1,0 +1,81 @@
+@import 'app/styles/mixins.scss';
+@import 'app/styles/colors.scss';
+@import 'app/styles/variables.scss';
+
+.benefit-content {
+  padding: $size55 50px $size55 50px;
+}
+
+.benefits {
+  @include text(900, 22px, 28px, $aztec);
+  margin-bottom: 41px;
+  margin-top: -30px;
+}
+
+.benefit-title {
+  @include text(900, 15px, 17px, $aztec);
+  margin-bottom: 10px;
+}
+
+.benefit-desc {
+  @include text(normal, 13px, 138%, #39393e);
+}
+
+.benefit-alignment {
+  margin-bottom: 40px;
+}
+
+.benefit-percent {
+  @include text(900, 71px, 103px, $white);
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.benefit-percent-desc {
+  @include text(bold, 16px, 26px, $white);
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-top: 30px;
+}
+
+.benefits-m {
+  margin-top: 50px;
+}
+
+.benefit-alignment .align-benefit {
+  padding-left: 30px;
+}
+
+@media (max-width: $size790) {
+  .benefit-percent {
+    font-size: 61px;
+    line-height: 63px;
+    margin-top: 90px;
+  }
+
+  .benefit-percent-desc {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: $size420) {
+  .benefit-percent {
+    font-size: 61px;
+    line-height: 33px;
+    margin-top: 10px;
+  }
+
+  .benefit-percent-desc {
+    font-size: 13px;
+    line-height: 11px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-top: 30px;
+  }
+
+  .inflation {
+    width: 150px;
+    text-align: center;
+  }
+
+  .benefit-content {
+    padding: 55px 20px 55px 20px;
+  }
+}

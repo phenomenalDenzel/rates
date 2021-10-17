@@ -1,0 +1,117 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.application-modal {
+  padding: 0 20px;
+  .application-account {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal-profile {
+    padding: 16px 0;
+    display: flex;
+    img {
+      padding-right: 10px;
+    }
+    .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .name {
+      @include text(500, 15px, 15px);
+    }
+    .describe {
+      @include text(400, 16px, 20px, $aztec, 0.6);
+    }
+    .provider-name {
+      @include text(400, 14px, 20px, $aztec, 0.6);
+    }
+  }
+  .select-amount {
+    @include text(bold, 14px, 20px);
+    text-align: center;
+  }
+
+  .amount-action {
+    @include text(500, 14px, 20px);
+    background-color: $alto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: none;
+  }
+
+  .amount {
+    @include text(bold, 25px, 20px, $puerto-rico);
+  }
+
+  .instruction {
+    @include text(400, 14px, 20px, $aztec, 0.6);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .amount-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+
+  .back-btn,
+  .back-btn:hover {
+    @include text(bold, 14px, 20px, $puerto-rico);
+    @include button(40%, $white);
+  }
+  .checkout-btn,
+  .checkout-btn:hover {
+    @include text(bold, 14px, 20px, $white);
+    @include button(40%);
+  }
+
+  .btn-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+
+  .no-cursor {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+.swal2-modal {
+  min-height: 280px;
+}
+.swal2-icon {
+  height: 55px;
+  width: 55px;
+}
+.swal2-icon--warning__body {
+  height: 30px;
+}
+.swal2-title {
+  @include text(600, 14px, 30px, $aztec);
+}
+.swal2-text {
+  @include text(600, 17px, 20px, $aztec, 0.6);
+}
+.swal2-confirm {
+  background-color: $puerto-rico !important;
+  color: $white;
+  margin-right: 6px;
+  padding: 5px 10px;
+}
+.swal2-cancel {
+  background-color: $red !important;
+  color: $white;
+  margin-right: 6px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,121 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.iphone {
+  height: 700px;
+  margin-top: 80px;
+}
+.top-alignment {
+  margin-top: -80px;
+}
+.content {
+  background-color: $white;
+}
+
+.know-rate {
+  @include text(900, 81px, 95px);
+  margin-top: 75px;
+}
+
+.compare-invest {
+  @include text(600, 13px, 138%, #39393e, 0.5);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-config {
+  min-width: 170px;
+  line-height: 20px;
+  display: inline;
+  border-radius: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.success-button,
+.success-button:hover {
+  background: $puerto-rico;
+  color: $white;
+  margin-right: 0;
+}
+
+.default-button {
+  border: 1px solid $aztec;
+  box-sizing: border-box;
+  color: $aztec;
+  margin-left: 6px;
+}
+
+@media (max-width: $size1050) {
+  .btn-config {
+    min-width: 150px;
+  }
+}
+
+@media (max-width: $size945) {
+  .btn-config {
+    min-width: 140px;
+  }
+}
+
+@media (max-width: $size905) {
+  .btn-config {
+    min-width: 120px;
+  }
+}
+
+@media (max-width: $size850) {
+  .success-button,
+  .default-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .default-button {
+    margin-top: 15px;
+  }
+  .btn-config {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: $size790) {
+  .success-button,
+  .default-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .btn-config {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: $size767) {
+  .btn-config {
+    min-width: 170px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 34px;
+  }
+}
+
+@media (max-width: $size420) {
+  .success-button,
+  .default-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn-config {
+    min-width: 100%;
+  }
+
+  .know-rate {
+    margin-top: 30px;
+  }
+}

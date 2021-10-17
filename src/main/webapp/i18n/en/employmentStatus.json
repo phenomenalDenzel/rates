@@ -1,0 +1,9 @@
+{
+  "ratesApp": {
+    "EmploymentStatus": {
+      "null": "",
+      "EMPLOYED": "EMPLOYED",
+      "UNEMPLOYED": "UNEMPLOYED"
+    }
+  }
+}

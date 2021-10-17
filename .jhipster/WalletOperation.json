@@ -1,0 +1,41 @@
+{
+  "name": "WalletOperation",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "operation",
+      "fieldType": "OperationType",
+      "fieldValues": "FUND,WITHDRAW,TRANSACTION_IN,TRANSACTION_OUT,REDEMPTION",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "wallet",
+      "otherEntityRelationshipName": "transactions",
+      "relationshipValidateRules": "required",
+      "relationshipName": "wallet",
+      "otherEntityField": "externalId"
+    }
+  ],
+  "changelogDate": "20200509201500",
+  "entityTableName": "wallet_operation",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

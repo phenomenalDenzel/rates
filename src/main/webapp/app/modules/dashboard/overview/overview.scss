@@ -1,0 +1,82 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+
+.account-summary {
+  @include text(bold, 19px, 22px);
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.check-account {
+  @include text(500, 14px, 23px, $aztec, 0.5);
+  margin-bottom: 14px;
+}
+
+.overview {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  img {
+    height: 80px;
+    width: 70px;
+    display: inline-block;
+  }
+  .value-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .card {
+    background-color: $puerto-rico;
+    .item {
+      height: 150px;
+      background-color: $white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      .title {
+        @include text(500, 20px, 23px);
+        padding-bottom: 20px;
+        height: 50px;
+      }
+      .value {
+        @include text(800, 30px, 53px);
+        padding-bottom: 10px;
+        text-align: right;
+        display: inline-block;
+      }
+      .desc {
+        @include text(600, 14px, 23px);
+        text-align: center;
+      }
+      .desc-icon {
+        height: 20px;
+        display: inline-block;
+        padding-right: 8px;
+      }
+    }
+  }
+}
+@media (max-width: 769px) {
+  .overview {
+    .overview-item {
+      padding: 10px;
+    }
+    .card {
+      background-color: $puerto-rico;
+      .item {
+        padding: 10px;
+        height: 150px;
+        .title {
+          @include text(400, 14px, 23px);
+          height: 55px;
+        }
+        .value {
+          @include text(500, 23px, 23px);
+        }
+        .desc {
+          @include text(500, 14px, 23px);
+          text-align: right;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "activate": {
+    "title": "Activation",
+    "messages": {
+      "success": "<strong>Your user account has been activated.</strong> Please ",
+      "error": "<strong>Your user could not be activated.</strong> Please use the registration form to sign up."
+    },
+    "check.email": "Check your mail",
+    "activation.note": "We'/ve sent verification codes to your email and it'/s needed to activate your account.<br />(Do check the spam folder of not in your inbox.)",
+    "activate.account": "Activate Your Account",
+    "activation.label": "Please enter the verification code we just sent to your email.",
+    "activate.btn": "Activate your account",
+    "get.email": "Didn't get am email?",
+    "resend.link": "Click here to resend.",
+    "resend.otp": "Click here to resend OTP.",
+    "generateOTP.success": "New verification code has been sent to your email.<br />(Do check the spam folder of not in your inbox.)"
+  }
+}

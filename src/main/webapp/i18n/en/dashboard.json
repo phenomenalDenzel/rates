@@ -1,0 +1,45 @@
+{
+  "dashboard": {
+    "hi": "Hi ",
+    "greetings": "looks like you are doing great",
+    "view.profile": "VIEW PROFILE",
+    "chart": {
+      "account.summary": "Summary",
+      "check.account": "Check your account balance"
+    },
+    "overview": {
+      "portifolio.overview": "Portfolio Overview",
+      "earning.till.date": "Earning till date",
+      "total.investment": "Total Investment",
+      "total.deposit": "Total Deposit"
+    },
+    "portifolio": {
+      "my.portifolio": "My Portfolio",
+      "check.account": "Check your account balance",
+      "total.earning": "Total Projected Earnings",
+      "fund.size": "Fund size",
+      "earning.date": "Earning to date",
+      "value": "value",
+      "interest.rate": "Interest Rate",
+      "next.redemption": "Next Redemption",
+      "date": "Date",
+      "issue": "Issue",
+      "add": "Add",
+      "balance": "Balance",
+      "fund": "Fund",
+      "wallet": "Wallet",
+      "wallet.balance": "wallet balance"
+    },
+    "modal": {
+      "fund.wallet": "Fund Wallet",
+      "debit.card": "Debit Card",
+      "plus": "+",
+      "add.card": "Add debit card",
+      "or": "0R",
+      "bank.transfer": "Bank Transfer",
+      "account.info": "he account provided is the unique RATES.NG account",
+      "bank.name": "Bank Name",
+      "account.number": "Bank Account number"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.form-control {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.container-fluid {
+  min-height: 100%;
+}
+.app-container .view-container {
+  padding: 0;
+  background-color: $alabaster;
+  min-height: 88vh;
+}
+.cursor {
+  cursor: pointer;
+}
+.whiteBg {
+  background-color: $white;
+}
+.grayBG {
+  background-color: $alabaster;
+}
+
+.greeBG {
+  background-color: $puerto-rico;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content {
+  padding: $size55 80px $size55 80px;
+}

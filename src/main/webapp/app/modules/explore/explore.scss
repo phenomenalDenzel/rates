@@ -1,0 +1,9 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.explore-container {
+  padding-top: 20px;
+  background-color: $puerto-rico;
+}

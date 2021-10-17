@@ -1,0 +1,11 @@
+export const enum OperationType {
+  FUND = 'FUND',
+
+  WITHDRAW = 'WITHDRAW',
+
+  TRANSACTION_IN = 'TRANSACTION_IN',
+
+  TRANSACTION_OUT = 'TRANSACTION_OUT',
+
+  REDEMPTION = 'REDEMPTION',
+}

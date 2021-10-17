@@ -1,0 +1,25 @@
+{
+  "ratesApp": {
+    "localGovt": {
+      "home": {
+        "title": "Local Govts",
+        "createLabel": "Create a new Local Govt",
+        "createOrEditLabel": "Create or edit a Local Govt",
+        "search": "Search for Local Govt",
+        "notFound": "No Local Govts found"
+      },
+      "created": "A new Local Govt is created with identifier {{ param }}",
+      "updated": "A Local Govt is updated with identifier {{ param }}",
+      "deleted": "A Local Govt is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Local Govt {{ id }}?"
+      },
+      "detail": {
+        "title": "Local Govt"
+      },
+      "name": "Name",
+      "state": "State",
+      "active": "Active"
+    }
+  }
+}

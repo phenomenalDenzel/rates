@@ -1,0 +1,30 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+@import 'app/styles/global.scss';
+
+.greeting {
+  @include text(900, 23px, 38px);
+}
+
+.grey-color {
+  color: $puerto-rico;
+}
+
+.view-profile {
+  @include text(500, 12px, 168.9%, $puerto-rico);
+  cursor: pointer;
+  padding-left: 35px;
+}
+
+.card-info {
+  min-height: 300px;
+}
+
+.card-info:last-child {
+  margin-bottom: 40px;
+}
+
+.greeting-body {
+  margin-top: 10px;
+}

@@ -1,0 +1,69 @@
+@import 'app/styles/colors.scss';
+@import 'app/styles/mixins.scss';
+@import 'app/styles/variables.scss';
+
+.footer-list {
+  @include text(normal, 14px, 238%);
+}
+
+.subscriber-btn {
+  height: 44px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media img {
+  margin-right: 7px;
+}
+.signup-text {
+  @include text(normal, 14px, 180%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.terms-and-conditions {
+  @include text(800, 13px, 138.4%);
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.reserved-right {
+  @include text(normal, 14px, 138.4%, $aztec, 0.5);
+  margin-bottom: 40px;
+}
+
+.footer-note {
+  @include text(normal, 14px, 138.4%);
+  margin-bottom: 20px;
+}
+
+.footer-Link {
+  color: $puerto-rico;
+  opacity: 0.4;
+}
+
+.footer-Link:hover {
+  color: $puerto-rico;
+  opacity: 0.4;
+}
+
+@media (max-width: $size420) {
+  .footer-list {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .important-disclosure {
+    margin-bottom: 0px;
+  }
+}
